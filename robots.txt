@@ -2,4 +2,4 @@
 User-agent:*
 Disallow:
 
-Sitemap: http://www.itwangtian.com/sitemap.xml
+Sitemap: http://www.itwangtian.com/wangtian/sitemap.xml
