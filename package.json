@@ -9,7 +9,7 @@
     "docs:clean-dev": "vuepress dev src --clean-cache",
     "docs:dev": "vuepress dev src",
     "docs:update-package": "pnpm dlx vp-update",
-    "upbt":"node config/upload.shh.js"
+    "upbt":"node config/upload.shh.cjs"
   },
   "devDependencies": {
     "@vuepress/client": "2.0.0-beta.67",
