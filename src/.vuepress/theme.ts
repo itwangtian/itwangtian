@@ -27,7 +27,9 @@ export default hopeTheme({
   // sidebar
   sidebar,
 
-  footer: "默认页脚",
+  footer:  `<img src="https://www.beian.gov.cn/img/new/gongan.png" >
+  <a href="https://beian.miit.gov.cn/" target="_blank">豫ICP备2020025758号-2</a> | Copyright © 2023-present
+ `,
 
   displayFooter: true,
 
