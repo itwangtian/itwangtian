@@ -23,7 +23,6 @@ export default hopeTheme({
 
   // navbar
   navbar,
-
   // sidebar
   sidebar,
 
