@@ -1,6 +1,6 @@
 ---
 icon: creative
-cover: /assets/images/cover3.jpg
+cover: /assets/images/cover3.jpg 
 ---
 
 # 关于王天

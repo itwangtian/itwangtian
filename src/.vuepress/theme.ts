@@ -10,7 +10,7 @@ export default hopeTheme({
 
   author: {
     name: "程序员王天",
-    url: "http://www.itwangtian.com",
+    url: "http://www.itwangtian.com"
   },
 
   iconAssets: "fontawesome-with-brands",
@@ -59,7 +59,7 @@ export default hopeTheme({
 
   plugins: {
     blog: true,
-
+    
     // comment: {
     //   // You should generate and use your own comment service
     //   provider: "Waline",
