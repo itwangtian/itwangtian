@@ -2,7 +2,7 @@ import { defineUserConfig } from "vuepress";
 import theme from "./theme.js";
 
 export default defineUserConfig({
-  base: "/itwangtian/",
+  base: "/",
 
   lang: "zh-CN",
   title: "王天的web进阶之路",
