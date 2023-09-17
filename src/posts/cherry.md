@@ -6,7 +6,7 @@ title:
 isOriginal:
 - true 
 category:
-  - 樱桃
+  - 樱桃小丸子
 tag:
   - 红
   - 小
