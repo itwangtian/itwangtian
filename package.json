@@ -5,14 +5,18 @@
   "license": "MIT",
   "type": "module",
   "scripts": {
-    "docs:build": "vuepress build src",
+    "docs:build": "vuepress build src  && node config/upload.shh.cjs",
     "docs:clean-dev": "vuepress dev src --clean-cache",
     "docs:dev": "vuepress dev src",
     "docs:update-package": "pnpm dlx vp-update",
-    "upbt": "node config/upload.shh.cjs"
+    "upbt": "node config/upload.shh.cjs",
+    "build:a": "vuepress build src",
+    "build:b": "npm run upbt",
+    "build": "npm-run-all build:a build:b"
   },
   "devDependencies": {
     "@vuepress/client": "2.0.0-beta.67",
+    "npm-run-all": "^4.1.5",
     "vue": "^3.3.4",
     "vuepress": "2.0.0-beta.67",
     "vuepress-plugin-search-pro": "2.0.0-beta.237",

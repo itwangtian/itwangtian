@@ -3,7 +3,7 @@ import theme from "./theme.js";
 import { searchProPlugin } from "vuepress-plugin-search-pro";
 
 export default defineUserConfig({
-  base: "/itwangtian/",
+  base: "/",
   lang: "zh-CN",
   title: "王天的web进阶之路",
   description: "前端编程技术分享 itwangtian",
