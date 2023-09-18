@@ -1,7 +1,6 @@
 import { defineUserConfig } from "vuepress";
 import theme from "./theme.js"; 
 import { searchProPlugin } from "vuepress-plugin-search-pro";
-
 // 这里使用的是 vuepress主题 配置项
 export default defineUserConfig({
    // 配置百度统计脚本，最终以script标签 插入header中
@@ -18,7 +17,7 @@ export default defineUserConfig({
   title: "王天的web进阶之路",
   description: "前端编程技术分享 itwangtian",
   theme, 
- 
+
 
   plugins: [
     searchProPlugin({
