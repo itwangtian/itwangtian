@@ -21,10 +21,11 @@ jobs:
           # submodules: true
 
       - name: Install pnpm
-        run: npm install -g pnpm
-        with:
-          run_install: true
-          version: 8
+        run: npm install -g pnpm@8
+        
+      - name: Install project dependencies
+        run: pnpm install
+        
 
 
       - name: 设置 Node.js
