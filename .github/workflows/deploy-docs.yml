@@ -22,7 +22,10 @@ jobs:
 
       - name: Install pnpm
         run: npm install -g pnpm
-       
+        with:
+          run_install: true
+          version: 8
+
 
       - name: 设置 Node.js
         uses: actions/setup-node@v3
