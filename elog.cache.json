@@ -1,0 +1,273 @@
+{
+  "docs": [
+    {
+      "id": 140491186,
+      "doc_id": "dmfthoyl1aq84f50",
+      "title": "dmfthoyl1aq84f50",
+      "updated": 1695255049000,
+      "body_original": "哎，平时刷脸解锁手机习惯了，屏幕解锁密码给忘了，尝试多次解锁后，手机不出意料的锁住了，从1分钟重试、到3小时重试，最后一次不敢尝试了，生怕手机变搬砖了。\n\n于是搜索iPhone忘记锁屏密码教程，踩坑了多种方案，亲测以下两种方式没毛病，\n\n:::warning\n注意！以下两种方式会重置手机, 如未备份数据，则默认恢复出厂设置\n:::\n1、登录iCloud网页账号，解绑iPhone\n2、电脑下载爱思助手，iPhone数据线链接到电脑上，手机切换恢复模式\n![image.png](https://cdn.nlark.com/yuque/0/2023/png/1450835/1695217226449-27878f82-3b0e-492c-bb27-80e4f0bb6995.png#averageHue=%23f6ecd8&clientId=u7e40f2b9-01a0-4&from=paste&height=708&id=uf58fcc9c&originHeight=1415&originWidth=1984&originalType=binary&ratio=2&rotation=0&showTitle=false&size=84901&status=done&style=none&taskId=u35b5d3c4-7b3a-4c6d-938d-be466b03c2e&title=&width=992)\n\n",
+      "properties": {
+        "title": "苹果忘记锁屏密码怎么办？",
+        "urlname": "dmfthoyl1aq84f50",
+        "date": "2023-09-20 21:34:35",
+        "updated": "2023-09-21 08:10:49"
+      },
+      "catalog": [
+        {
+          "title": "科技数码",
+          "doc_id": "dmfthoyl1aq84f50"
+        }
+      ],
+      "body": "",
+      "realName": "苹果忘记锁屏密码怎么办？",
+      "relativePath": "\\科技数码\\苹果忘记锁屏密码怎么办？.md"
+    },
+    {
+      "id": 140249893,
+      "doc_id": "zvsz9k2qhrkgo0ki",
+      "title": "zvsz9k2qhrkgo0ki",
+      "updated": 1695393156000,
+      "body_original": "> 本篇教程适用于vuepress2版本\n\n注册百度统计\n[https://tongji.baidu.com/](https://tongji.baidu.com/)\n注册成功后，打开网站列表\n[https://tongji.baidu.com/main/setting/10000320023/home/site/index](https://tongji.baidu.com/main/setting/10000320023/home/site/index)\n如下，新增网站配置\n![image.png](https://cdn.nlark.com/yuque/0/2023/png/1450835/1695032957518-76a03ecc-9758-4d36-906d-1d96614bab4f.png#averageHue=%23f9f3d6&clientId=u12421535-c668-4&from=paste&height=957&id=ue1c4635e&originHeight=1913&originWidth=3813&originalType=binary&ratio=2&rotation=0&showTitle=false&size=580017&status=done&style=none&taskId=u0af92654-020f-4e8e-97ca-eabafd815fb&title=&width=1906.5)\n新增站点\n![image.png](https://cdn.nlark.com/yuque/0/2023/png/1450835/1695032916230-80449adf-a8cf-4c8b-b5ab-adaae8cb29b9.png#averageHue=%23f2f1f1&clientId=u12421535-c668-4&from=paste&height=539&id=u72cf2256&originHeight=1078&originWidth=1186&originalType=binary&ratio=2&rotation=0&showTitle=false&size=122813&status=done&style=none&taskId=ubcaaadff-bb4a-4b18-9bcf-5b9c9036bee&title=&width=593)\n\n获取代码 ，插入博客中，用于站点与百度统计互联\n![image.png](https://cdn.nlark.com/yuque/0/2023/png/1450835/1695042839322-86d67449-7893-4ad6-84f7-aede5d145c74.png#averageHue=%23f9f8f6&clientId=u78628992-74ad-4&from=paste&height=475&id=uc4deb59a&originHeight=949&originWidth=2789&originalType=binary&ratio=2&rotation=0&showTitle=false&size=245349&status=done&style=none&taskId=ueaad00a4-d642-4eb9-bca2-83da9819a58&title=&width=1394.5)\n配置流程如下：\n![image.png](https://cdn.nlark.com/yuque/0/2023/png/1450835/1695042799188-9d42c377-f1a4-4a81-8c5b-167d8a29dd1f.png#averageHue=%23faf9f8&clientId=u78628992-74ad-4&from=paste&height=549&id=u21a0e543&originHeight=1098&originWidth=2182&originalType=binary&ratio=2&rotation=0&showTitle=false&size=224023&status=done&style=none&taskId=ub0222742-3b66-4fbc-b400-9d3a3d1b55d&title=&width=1091)\n:::warning\n注意！\n在配置统计代码时，查看了多个教程，都是以代码块的方式配置，但是本地运行创建标签出错，导致统计代码运行失败\n\n:::\n```powershell\nmodule.exports = {\n    head: [\n      [\n        'script', {}, `\n        var _hmt = _hmt || [];\n        (function() {\n          var hm = document.createElement(\"script\");\n          hm.src = \"https://hm.baidu.com/hm.js?xxxxxxxxxxxxxxxxxxx\";\n          var s = document.getElementsByTagName(\"script\")[0]; \n          s.parentNode.insertBefore(hm, s);\n        })();\n        </script>        \n        `\n      ]\n    ]\n}\n```\n\n经过尝试后，直接使用vuepress中的head配置，来生成一个script标签，插入header中即可，不存在异步创建标签问题。\n```typescript\nexport default defineUserConfig({\n  head: [\n    [\n      'script', {\n        type:'text/javascript',\n        src:'https://hm.baidu.com/hm.js?ff5e95667789a353e9be4e467e13ff3a'\n      }, \n    ]\n  ]\n})\n```\nhead配置参数\n第一个参数：标签名称 -script标签\n第二个参数：标签配置项- type类型为'text/javascript'，src为百度统计代码访问地址\n第三个三次：代码块 、可忽略\n\n\n检测效果\n注意，通过js方式链接百度统计，代码检查无法检查到\n官方说法：\n\n- .如果通过js文件调用的方式安装统计代码，由于无法直接在网站页面中找到统计代码，会提示“未检测到代码”，建议您使用 [百度统计助手](https://tongji.baidu.com/web/help/article?id=317&type=0) 进行检测；\n\n需要通过百度统计助手检测，安装地址→\n安装插件后检测，此时提示站点已安装统计助手，咱们后续登录百度统计后台，就能查看博客数据啦\n![image.png](https://cdn.nlark.com/yuque/0/2023/png/1450835/1695044156568-fc632723-c24a-4123-8c57-72762c0a44c3.png#averageHue=%23e7cea6&clientId=u78628992-74ad-4&from=paste&height=334&id=u56aa83bd&originHeight=667&originWidth=1091&originalType=binary&ratio=2&rotation=0&showTitle=false&size=81402&status=done&style=none&taskId=u2fc0774c-1cee-4021-a1d7-8da9bee829e&title=&width=545.5)\n等待\n### 1.4 等待\n如果百度统计插件助手提示安装成功，一般需等待20分钟左右，可登录后台查看数据\n注意！以js方式介入百度统计，代码安装检测无法识别\n![image.png](https://cdn.nlark.com/yuque/0/2023/png/1450835/1695044547668-66b23a35-b0ce-4298-a159-73b45a2a73a0.png#averageHue=%23f9f8f7&clientId=u78628992-74ad-4&from=paste&height=133&id=ub26dd20c&originHeight=265&originWidth=2423&originalType=binary&ratio=2&rotation=0&showTitle=false&size=65599&status=done&style=none&taskId=u9c0a9349-7c84-48ce-bf58-ec1f31ce696&title=&width=1211.5)没关系，百度插件助手提示接入成功就行，\n如下，打开统计后台，咱们就能看到本地访问的实时记录\n![image.png](https://cdn.nlark.com/yuque/0/2023/png/1450835/1695044637082-2593d9cf-5e93-4d7e-b896-e7e83d12c587.png#averageHue=%23fbfbfa&clientId=u78628992-74ad-4&from=paste&height=593&id=ucb27cda7&originHeight=1186&originWidth=2671&originalType=binary&ratio=2&rotation=0&showTitle=false&size=269832&status=done&style=none&taskId=uf8bb5388-f4af-48bd-842b-b9c2d391040&title=&width=1335.5)\n完成以上步骤，算是接入百度统计50%了\n注意！vuepress是 以vue框架开的一个单应用程序，在切换路由时不会触发页面渲染，导致咱们访问文章页时因无法触发百度统计，当如何解决此问题呢？\n通过vue的路由守卫，在路由切换时，手动上报百度统计。\n\n在查阅文档时，我发现不少博主是用vuepress1建站，创建enhanceapp.js 来设置路由守卫，此方式在vuepress2.0无效\n官网解释\n> #### [#](https://v2.vuepress.vuejs.org/zh/guide/migration.html#vuepress-enhanceapp-js).vuepress/enhanceApp.js\n> 重命名为 .vuepress/client.{js,ts} ，使用方法也有改动。\n> 参考 [深入 > Cookbook > 客户端配置的使用方法](https://v2.vuepress.vuejs.org/zh/advanced/cookbook/usage-of-client-config.html) 。\n\n亲测踩坑，勿用！VuePress 文档的基本配置中，介绍了一个[应用级别的配置](https://vuepress.vuejs.org/zh/guide/basic-config.html#%E5%BA%94%E7%94%A8%E7%BA%A7%E5%88%AB%E7%9A%84%E9%85%8D%E7%BD%AE)：\n> 由于 VuePress 是一个标准的 Vue 应用，你可以通过创建一个 .vuepress/enhanceApp.js 文件来做一些应用级别的配置，当该文件存在的时候，会被导入到应用内部。enhanceApp.js 应该 export default 一个钩子函数，并接受一个包含了一些应用级别属性的对象作为参数。你可以使用这个钩子来安装一些附加的 Vue 插件、注册全局组件，或者增加额外的路由钩子等：\n\n\n代码如下：\n```powershell\nexport default ({ router }) => {\n    router.beforeEach((to, from, next) => {\n      if (typeof _hmt !== \"undefined\") {\n        if (to.path) {\n          _hmt.push([\"_trackPageview\", to.fullPath]);\n        }\n      }\n      \n      next();\n    });\n  };\n```\n\n\n## 客户端配置路由守卫\nvuepres2.0版本，需要额外客户端配置，创建文件`.vuepress/client.js`\n在客户端配置中添加路由守卫，代码如下：\n```tsx\nimport { defineClientConfig } from \"@vuepress/client\";\nconsole.log('路由守卫了')\nexport default defineClientConfig({\n  enhance({ router }) {\n      router.beforeEach((to, from, next) => {\n      console.log(\"切换路由\", to.fullPath, from.fullPath);\n  \n      //触发百度的pv统计\n      if (typeof _hmt != \"undefined\") {\n        if (to.path) {\n          _hmt.push([\"_trackPageview\", to.fullPath]);\n          console.log(\"上报百度统计\", to.fullPath);\n        }\n      }\n      // continue\n      next();\n    });\n  },\n});\n\n```\n路由守卫方法接收三个参数：\n\n- to: Route: 即将要进入的目标 路由对象\n- from: Route: 当前导航正要离开的路由\n- next: Function: 一定要调用该方法来 resolve 这个钩子\n\n**提示**\n切换路由时会触发统计上报。以下行为时会上报统计:\n\n- 首次访问\n- 刷新页面\n- 切换到当前文章的其它章节\n切换锚点，URL 会变化，所以会触发路由变化事件。\n所以，当用户完整得浏览完一篇博客时，可能会触发多次上报。\n\n总结\n\n接入百度统计，本质是在访问站点时触发百度统计api。\n\n",
+      "properties": {
+        "title": "vuepress 绑定百度统计",
+        "urlname": "zvsz9k2qhrkgo0ki",
+        "date": "2023-09-18 18:27:33",
+        "updated": "2023-09-22 22:32:36"
+      },
+      "catalog": [
+        {
+          "title": "建站",
+          "doc_id": "zvsz9k2qhrkgo0ki"
+        }
+      ],
+      "body": "",
+      "realName": "vuepress 绑定百度统计",
+      "relativePath": "\\建站\\vuepress 绑定百度统计.md"
+    },
+    {
+      "id": 140585931,
+      "doc_id": "lomagl3q00vg0nqf",
+      "title": "lomagl3q00vg0nqf",
+      "updated": 1695349237000,
+      "body_original": "# 需求\n账号太多，密码容易忘记，尤其是苹果账号申诉真是反人性！！！我经历过一次苹果重置密码，恶心坏了！ 重置需要等待14天，烦死啦，手机变板砖了！\n为了防止再次忘记密码，打算开发个小程序，存放所有密码。\n# 技术栈\n## 前端\nuniapp\n## 后端\nuniclound\n## 插件\n[APP-引导页+官方示例 - DCloud 插件市场](https://ext.dcloud.net.cn/plugin?id=192)\n[新手引导提示 - DCloud 插件市场](https://ext.dcloud.net.cn/plugin?id=6653)\n[通用个人中心页面模板 - DCloud 插件市场](https://ext.dcloud.net.cn/plugin?id=12646)\n[tui-keyboard 数字键盘 | ThorUI文档](https://thorui.cn/doc/docs/thorui/tui-keyboard.html)\n",
+      "properties": {
+        "title": "小天密码本",
+        "urlname": "lomagl3q00vg0nqf",
+        "date": "2023-09-21 18:39:58",
+        "updated": "2023-09-22 10:20:37"
+      },
+      "catalog": [
+        {
+          "title": "项目",
+          "doc_id": "lomagl3q00vg0nqf"
+        }
+      ],
+      "body": "",
+      "realName": "小天密码本",
+      "relativePath": "\\项目\\小天密码本.md"
+    },
+    {
+      "id": 140113370,
+      "doc_id": "hgdvvg24f38gsvcp",
+      "title": "hgdvvg24f38gsvcp",
+      "updated": 1694950765000,
+      "body_original": "> ❌  经过不断尝试，果断放弃webhoooks！不是踩坑太多，而是最终配好后执行太耗时。\n> 💡 自动部署，本质是在服务器执行 git clone ，因受服务器资资源限制、此过程会非常耗时，我20多兆的仓库，整个过程需要半个小时。\n> ✔️过程太慢还浪费服务器宽度，还不如本地写个脚本上传算了\n\n:::success\n🔥对webhooks不刚兴趣可直接看最后一章节，通过`ssh2-sftp-client` 模块实现上传服务器\n:::\n# webhoooks 自动部署 git项目\n有什么用？\n更直观点讲，有了webhooks，可以实现自动化部署，无需每次手动上传服务器啦\ngitee 和 github中都有此功能\n1.自动化shell脚本\n2.服务端实现\n3.配置github webhooks\n\n宝塔\n配置环境\n宝塔默认是安装好git的\n配置公钥\n生成 Git 生产环境下的公钥的命令如下所示：\n```\nssh-keygen -t rsa -b 4096 -C \"your_email@example.com\"\n```\n这个命令将生成一个 RSA 类型的 SSH 密钥对，包括一个私钥和一个公钥。请注意替换 \"your_email@example.com\" 为你自己的电子邮件地址。\n**回车三次**\n生成的密钥对默认存储在用户的 ~/.ssh 目录下，文件名为 id_rsa（私钥）和 id_rsa.pub（公钥）。\n\n生成公钥后，你可以将公钥内容复制并添加到 Git 托管服务（如 GitHub、GitLab 或 Bitbucket）的账户设置中，以便在进行远程操作时进行身份验证和访问控制。\n这里添加到github中\n首次需配置git\n在宝塔面板的终端设置git\n```\ngit config --global user.name \"17638567073@163.com\"\ngit config --global user.email \"17638567073@163.com\"\ngit config --global credential.helper store //会生成.gitconfig 的文件\ncat .gitconfig   //如果报错: No such file or directory，就用下一行的代码\ncat ~/.gitconfig  //显示内容\n```\n\n\n\n# node实现项目-自动部署\n## ssh2-sftp-client\nssh2-sftp-client 模块是一个用于在 Node.js 环境中进行 SSH 文件传输协议（SFTP）操作的库\n以使用这个模块来实现远程文件的上传、下载或其他文件操作任务。\n> SSH 文件上传适用于通过 SSH 协议在**本地计算机和远程服务器**之间建立安全连接进行文件传输\n\n**完整上传代码**\n```javascript\n// ssh2-sftp-client 亲测好用，完全没毛病！\nlet Client = require('ssh2-sftp-client');\nfunction put(localPath, romotePath) {\n    let sftp = new Client();\n    sftp.connect({\n        host: 'xxx', // 服务器 IP\n        port: '22',\n        username: \"xxx\", // 服务器登录用户名\n            password: \"xxx\", // 服务器登录密码\n    }).then(() => {\n        // 上传文件\n        // return sftp.fastPut(localPath, romotePath);\n        console.log('上传文件中')\n        // 下载文件\n        return sftp.uploadDir(localPath, romotePath);\n    }).then((data) => {\n        // console.log(localPath + \"上传完成\");\n        console.log(data , \"上传完成\");\n        sftp.end();\n    }).catch((err) => {\n        console.log(err, 'catch error');\n    });\n}\n\nlet srcPath = '/www/wwwroot/itwangtian.com',\n    // localPath = path.join(__dirname, 'test.txt'),\n    romotePath = './src/.vuepress/dist';\n\n// 上传文件\n// 第一个参数是需要上传的文件的本地路径；第二个参数是服务器存放的地址\n// put(localPath, romotePath);\n// 下载文件\n// 第一个参数是需要下载的文件在服务器存放的地址；第二个参数是本地存放的路径\nput( romotePath,srcPath);\n\n \n```\n## npm 执行多个命令行\n## 场景\n这两天用vuepres搭建知识库博客，每次部署到服务器上，都需要执行多个命令行，分别如下：\n\n1. `npm run buld`\n2.  `npm run upbt (运行ssl上传脚本)`\n\n在上传代码到服务器前，还需手动打包项目，虽然说多执行一个步骤，但是作为一个程序员来说，最大的兴趣就是将重复的事情自动化。\n怎么实现呢？\n推荐使用 `npm-run-all`\n## npm-run-all\nnpm-run-all 是一个 npm 包，用于在 package.json 的 scripts 中并行或顺序执行多个命令。它提供了灵活的命令组合和执行方式。\n### 基本使用\n先安装 npm-run-all\n```powershell\nnpm install -g npm-run-all\n```\n咱们可以按照以下步骤来使用 npm-run-all：\n\n1. 首先，在你的项目目录下，确保你已经有一个 package.json 文件。如果没有，请先使用以下命令初始化一个新的 package.json 文件：\n```powershell\nnpm init\n```\n\n2. 在 package.json 文件中的 scripts 部分，配置你要执行的命令。你可以使用 npm-run-all 的命令格式，如下：\n```powershell\n{\n  \"scripts\": {\n    \"command1\": \"your-command-1\",\n      \"command2\": \"your-command-2\",\n      \"build\": \"npm-run-all command1 command2\"\n  }\n}\n```\n在上面的例子中，command1 和 command2 分别代表你要执行的两个命令，而 build 则是一个包装命令，用于顺序执行 command1 和 command2。\n\n3. 接下来，你可以打开终端并在项目目录下执行以下命令：\n```bash\nnpm run build\n```\n这会触发 npm 执行 package.json 中的 build 命令，即 npm-run-all command1 command2。此时，npm-run-all 将按照顺序依次执行 command1 和 command2。\n### 更多用法\n\n- `--parallel`：并行运行 npm 脚本。可以将多个脚本命令以空格分隔传递给该参数，npm-run-all 将同时运行它们。示例：npm-run-all --parallel script1 script2 script3\n- `--serial`：按顺序运行 npm 脚本。可以将多个脚本命令以空格分隔传递给该参数，npm-run-all 将按照顺序运行它们。示例：npm-run-all --serial script1 script2 script3\n- `--continue-on-error`：即使前一个脚本命令执行失败，也继续执行后续的脚本。示例：npm-run-all --parallel --continue-on-error script1 script2\n- `--aggregate-output`：将所有脚本的输出合并到一个终端中显示。示例：npm-run-all --serial --aggregate-output script1 script2 script3\n",
+      "properties": {
+        "title": "webhooks 自动部署git项目",
+        "urlname": "hgdvvg24f38gsvcp",
+        "date": "2023-09-17 13:19:07",
+        "updated": "2023-09-17 19:39:25"
+      },
+      "catalog": [
+        {
+          "title": "建站",
+          "doc_id": "hgdvvg24f38gsvcp"
+        }
+      ],
+      "body": "",
+      "realName": "webhooks 自动部署git项目",
+      "relativePath": "\\建站\\webhooks 自动部署git项目.md"
+    },
+    {
+      "id": 138427864,
+      "doc_id": "gmbekqz6hte3q4if",
+      "title": "gmbekqz6hte3q4if",
+      "updated": 1694855283000,
+      "body_original": "# vuepress搭建教程\n[1 篇文章带你搭建“个人博客”和“知识库”!（无保留版）](https://mp.weixin.qq.com/s/gi39zgxqoKJ7VvphBg-6zw)\n# 语雀批量导出markdown\n[语雀知识库一键导出 Markdown 工具](https://zhuanlan.zhihu.com/p/582287220)\n# google seo 优化\n在[https://www.v2ex.com/](https://www.v2ex.com/)上发帖介绍网站，最快1小时 谷歌就收录了\n# 图片改为SVG格式\n[https://cdkm.com/cn/png-to-svg](https://cdkm.com/cn/png-to-svg)\n# 图片改为圆形\n[https://crop-circle.imageonline.co/cn/](https://crop-circle.imageonline.co/cn/)\n# vuepress 打包![19B1A65B.png](https://cdn.nlark.com/yuque/0/2023/png/1450835/1694785813326-79ba847a-8bf4-44bf-a504-e7a6fe04568c.png#averageHue=%23030403&clientId=uf5cbdd4b-ecfd-4&from=paste&height=24&id=u3b3c6ba1&originHeight=48&originWidth=48&originalType=binary&ratio=2&rotation=0&showTitle=false&size=4727&status=done&style=none&taskId=ue4468ade-fded-4039-b2db-e5ffa10611a&title=&width=24) 部署宝塔\n[https://www.cnblogs.com/Lencamo/p/16454225.html](https://www.cnblogs.com/Lencamo/p/16454225.html)（亲测无效）\n",
+      "properties": {
+        "title": "个人博客攻略",
+        "urlname": "gmbekqz6hte3q4if",
+        "date": "2023-09-05 20:24:11",
+        "updated": "2023-09-16 17:08:03"
+      },
+      "catalog": [
+        {
+          "title": "建站",
+          "doc_id": "gmbekqz6hte3q4if"
+        }
+      ],
+      "body": "",
+      "realName": "个人博客攻略",
+      "relativePath": "\\建站\\个人博客攻略.md"
+    },
+    {
+      "id": 135587093,
+      "doc_id": "fy2vy4icsygbahon",
+      "title": "fy2vy4icsygbahon",
+      "updated": 1691416840000,
+      "body_original": "# 问题\n今天在折腾搭建vuepress博客，打算把语雀内容迁移到博客，发现语雀做了防盗链，导致图片无法显示。\n# 如何解决呢？🤦‍\n在网上找了一圈，试错了好几个小时，眼花腰疼终于找到了解决方案！🤩\n\n😀 使用picGo图床工具+typora\n\npicGo 是一个集成各大云存储的工具，省去了各种配置，一键上传云平台。\npicGo 搭配 typora使用，操作md文档后，可直接右键上传云平台。再也不用担心图片失效问题啦！\n![image.png](https://cdn.nlark.com/yuque/0/2023/png/1450835/1691416081009-d149a4a6-181a-454f-b325-2bd5a4637f2e.png#averageHue=%23f3f0ed&clientId=u5368eaf8-c366-4&from=paste&height=246&id=u927004bf&originHeight=608&originWidth=1480&originalType=binary&ratio=2.4750001430511475&rotation=0&showTitle=false&size=284304&status=done&style=none&taskId=ud64d6bc7-6b13-4cb6-8e46-de07db21f83&title=&width=597.9797634174985)\n# 配置\n## picgo\n我这里使用的阿里云oss作为图床，如使用其他云存储，可参考如下配置\n![image.png](https://cdn.nlark.com/yuque/0/2023/png/1450835/1691416043797-92f45cb0-1d01-45ce-be89-2e33b46b7769.png#averageHue=%235e5c58&clientId=u5368eaf8-c366-4&from=paste&height=364&id=u7d738242&originHeight=900&originWidth=1578&originalType=binary&ratio=2.4750001430511475&rotation=0&showTitle=false&size=143620&status=done&style=none&taskId=u88f16f6a-25f4-4121-a671-924340ff45f&title=&width=637.5757207248733)\n## typora\ntypora需要设置两项：\n1、插入图片时操作：如下图配置、在插入图像时直接上传picgo配置的云存储平台。\n2、上传服务配置：选择picgo上传服务、以及picgo安装目录\n \n![image.png](https://cdn.nlark.com/yuque/0/2023/png/1450835/1691416134360-67fd5a2d-095d-4d4f-be91-8dd1bb559cf7.png#averageHue=%23f5f4f4&clientId=u5368eaf8-c366-4&from=paste&height=521&id=u96e26d6d&originHeight=1290&originWidth=1574&originalType=binary&ratio=2.4750001430511475&rotation=0&showTitle=false&size=134360&status=done&style=none&taskId=uf965da3d-f2a2-4277-8e25-ce6ca357f0c&title=&width=635.9595592021234)\n# 下载地址：\npicgo 建议安装 2.3稳定版本\ntypora 安装破解版 \n关注公众号【程序员王天】领取安装包\n",
+      "properties": {
+        "title": "picgo+typora 超级好用的图床工具，再也不用担心图片失效啦",
+        "urlname": "fy2vy4icsygbahon",
+        "date": "2023-08-07 21:41:29",
+        "updated": "2023-08-07 22:00:40"
+      },
+      "catalog": [
+        {
+          "title": "建站",
+          "doc_id": "fy2vy4icsygbahon"
+        }
+      ],
+      "body": "",
+      "realName": "picgo+typora 超级好用的图床工具，再也不用担心图片失效啦",
+      "relativePath": "\\建站\\picgo+typora 超级好用的图床工具，再也不用担心图片失效啦.md"
+    }
+  ],
+  "catalog": [
+    {
+      "type": "TITLE",
+      "title": "项目",
+      "uuid": "dmQSRn6AXUBSg96x",
+      "url": "",
+      "prev_uuid": "",
+      "sibling_uuid": "PUQZiYfEh8WLE0S5",
+      "child_uuid": "Nwy1XwBVCauDEVT3",
+      "parent_uuid": "",
+      "doc_id": "",
+      "level": 0,
+      "id": "",
+      "open_window": 1,
+      "visible": 1
+    },
+    {
+      "type": "DOC",
+      "title": "小天密码本",
+      "uuid": "Nwy1XwBVCauDEVT3",
+      "url": "lomagl3q00vg0nqf",
+      "prev_uuid": "dmQSRn6AXUBSg96x",
+      "sibling_uuid": "",
+      "child_uuid": "",
+      "parent_uuid": "dmQSRn6AXUBSg96x",
+      "doc_id": 140585931,
+      "level": 1,
+      "id": 140585931,
+      "open_window": 1,
+      "visible": 1
+    },
+    {
+      "type": "TITLE",
+      "title": "科技数码",
+      "uuid": "PUQZiYfEh8WLE0S5",
+      "url": "",
+      "prev_uuid": "dmQSRn6AXUBSg96x",
+      "sibling_uuid": "dM-RDLFXxlX3QjP_",
+      "child_uuid": "eX4exmhO2D8UflWY",
+      "parent_uuid": "",
+      "doc_id": "",
+      "level": 0,
+      "id": "",
+      "open_window": 1,
+      "visible": 1
+    },
+    {
+      "type": "DOC",
+      "title": "苹果忘记锁屏密码怎么办？",
+      "uuid": "eX4exmhO2D8UflWY",
+      "url": "dmfthoyl1aq84f50",
+      "prev_uuid": "PUQZiYfEh8WLE0S5",
+      "sibling_uuid": "",
+      "child_uuid": "",
+      "parent_uuid": "PUQZiYfEh8WLE0S5",
+      "doc_id": 140491186,
+      "level": 1,
+      "id": 140491186,
+      "open_window": 1,
+      "visible": 1
+    },
+    {
+      "type": "TITLE",
+      "title": "建站",
+      "uuid": "dM-RDLFXxlX3QjP_",
+      "url": "",
+      "prev_uuid": "PUQZiYfEh8WLE0S5",
+      "sibling_uuid": "",
+      "child_uuid": "e1_kPpijDayK5qYi",
+      "parent_uuid": "",
+      "doc_id": "",
+      "level": 0,
+      "id": "",
+      "open_window": 1,
+      "visible": 1
+    },
+    {
+      "type": "DOC",
+      "title": "vuepress 绑定百度统计",
+      "uuid": "e1_kPpijDayK5qYi",
+      "url": "zvsz9k2qhrkgo0ki",
+      "prev_uuid": "dM-RDLFXxlX3QjP_",
+      "sibling_uuid": "Oe3mhxMYTPnULY4K",
+      "child_uuid": "",
+      "parent_uuid": "dM-RDLFXxlX3QjP_",
+      "doc_id": 140249893,
+      "level": 1,
+      "id": 140249893,
+      "open_window": 1,
+      "visible": 1
+    },
+    {
+      "type": "DOC",
+      "title": "picgo+typora 超级好用的图床工具，再也不用担心图片失效啦",
+      "uuid": "Oe3mhxMYTPnULY4K",
+      "url": "fy2vy4icsygbahon",
+      "prev_uuid": "e1_kPpijDayK5qYi",
+      "sibling_uuid": "sjQp_ifu1us6UgxR",
+      "child_uuid": "",
+      "parent_uuid": "dM-RDLFXxlX3QjP_",
+      "doc_id": 135587093,
+      "level": 1,
+      "id": 135587093,
+      "open_window": 0,
+      "visible": 1
+    },
+    {
+      "type": "DOC",
+      "title": "webhooks 自动部署git项目",
+      "uuid": "sjQp_ifu1us6UgxR",
+      "url": "hgdvvg24f38gsvcp",
+      "prev_uuid": "Oe3mhxMYTPnULY4K",
+      "sibling_uuid": "XocdFCHEyCyCEqAm",
+      "child_uuid": "",
+      "parent_uuid": "dM-RDLFXxlX3QjP_",
+      "doc_id": 140113370,
+      "level": 1,
+      "id": 140113370,
+      "open_window": 1,
+      "visible": 1
+    },
+    {
+      "type": "DOC",
+      "title": "个人博客攻略",
+      "uuid": "XocdFCHEyCyCEqAm",
+      "url": "gmbekqz6hte3q4if",
+      "prev_uuid": "sjQp_ifu1us6UgxR",
+      "sibling_uuid": "",
+      "child_uuid": "",
+      "parent_uuid": "dM-RDLFXxlX3QjP_",
+      "doc_id": 138427864,
+      "level": 1,
+      "id": 138427864,
+      "open_window": 1,
+      "visible": 1
+    }
+  ]
+}

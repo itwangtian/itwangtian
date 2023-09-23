@@ -3,7 +3,7 @@
   "version": "1.0.0",
   "description": "A project of vuepress-theme-hope",
   "license": "MIT",
-  "type": "module",
+  "type": "commonjs",
   "scripts": {
     "docs:build": "vuepress build src  && node config/upload.shh.cjs",
     "docs:clean-dev": "vuepress dev src --clean-cache",
@@ -12,15 +12,19 @@
     "upbt": "node config/upload.shh.cjs",
     "build:a": "vuepress build src",
     "build:b": "npm run upbt",
-    "build": "npm-run-all build:a build:b"
+    "build": "npm-run-all build:a build:b",
+    "sync":"elog sync -e  .elog.env"
   },
   "devDependencies": {
     "@vuepress/client": "2.0.0-beta.67",
     "npm-run-all": "^4.1.5",
     "vue": "^3.3.4",
     "vuepress": "2.0.0-beta.67",
-    "vuepress-plugin-search-pro": "2.0.0-beta.237",
+    "vuepress-plugAin-search-pro": "2.0.0-beta.237",
     "vuepress-plugin-seo2": "2.0.0-beta.237",
     "vuepress-theme-hope": "2.0.0-beta.237"
+  },
+  "dependencies": {
+    "@elog/cli": "0.7.3-beta.1"
   }
 }

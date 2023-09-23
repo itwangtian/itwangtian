@@ -67,7 +67,8 @@ export default hopeTheme({
       repo:"itwangtian/itwangtian",
       repoId:'R_kgDOKEL72Q',
       category:'announcements',
-      categoryId:'DIC_kwDOKEL72c4CZVpN'
+      categoryId:'DIC_kwDOKEL72c4CZVpN',
+      mapping:'og:title'
       // serverURL: "https://waline-comment.vuejs.press",
     },
 
