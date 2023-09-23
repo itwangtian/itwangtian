@@ -20,12 +20,11 @@ jobs:
           # 如果你文档需要 Git 子模块，取消注释下一行
           # submodules: true
 
-      - name: Install pnpm
-        run: npm install -g pnpm@8
-        
-      - name: Install project dependencies
-        run: pnpm install
-        
+      - name: 安装 pnpm
+        uses: pnpm/action-setup@v2
+        with:
+          run_install: true
+          version: 8
 
 
       - name: 设置 Node.js
