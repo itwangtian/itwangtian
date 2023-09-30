@@ -1,22 +1,59 @@
 import { sidebar } from "vuepress-theme-hope";
 
+const cache = require('../../elog.cache.json')
+const { catalog } = cache
+ 
+// 递归函数本质上是一个在回调自身的函数，用于改造数据结构，
+// 重点在于跳出循环的机制，否则陷入死循环啦
+function genYuqueRoute() {
+  // 将语雀配置中的一维数组，递归生产菜单树结构
+  // 参数1:遍历数组
+  // 参数2:父菜单id
+  const deep = (arrlist,parantId) => {
+    let forList:any[] = []
+    arrlist.forEach(element => {
+      // 菜单id不一致，跳出循环调用
+      if(element.parent_uuid !== parantId) return
+      // 如果是TITLE类型新增配置项
+      if(element.type === 'TITLE'){
+          forList.push({
+            text:element.title,
+            collapsible:true,
+            children:deep(arrlist,element.uuid)
+          })
+        // 如果是DOC 类型追加文件地址 
+      }else{
+          forList.push(element.url+'.md')    
+        }
+      
+    }); 
+    return forList 
+  }
+   return deep(catalog,'')
+} 
+
 export default sidebar({
   "/": [
-
+    '',
     {
-      text: "前端进阶之路",
+      text: "TS+React开发",
       icon: "laptop-code",
       prefix: "docs/",
-      link: "docs/",
-      children: "structure",
+      // link: "docs/",
+      collapsible: true,
+      // children: "structure"
+      children: genYuqueRoute(),
+
     },
     {
-      text: "文章",
+      text: "程序人生",
       icon: "book",
-      prefix: "posts/",
+      collapsible: true,
+      prefix: "joachern/",
       children: "structure",
-    },
-    "intro",
-    "slides",
+    }
   ],
 });
+
+
+

@@ -15,17 +15,17 @@ module.exports = {
     platform: 'local',
     local: {
       outputDir: './src/docs',
-      filename: 'title',
+      filename: 'urlname',
       format: 'matter-markdown',
-      catalog: true,
+      catalog: false,
       formatExt: '',
     },
   },
   image: {
     enable: true,
-    platform: 'github',
+    platform: 'oss',
     local: {
-      outputDir: './docs/images',
+      outputDir: './src/public/docimgs',
       prefixKey: '/images',
     },
     oss: {
