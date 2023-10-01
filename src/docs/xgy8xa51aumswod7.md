@@ -8,7 +8,7 @@ updated: "2023-09-10 21:22:11"
 # 问题描述
 
 win10 电脑安装了 cnpm ，cnpm -v 检查版本号没有问题，但是 cnpm 下包报错
-![image.png](http://gyg-bawei-zg4-2103b.oss-cn-beijing.aliyuncs.com/ef13428859b15e1eb8192c704bc2f1dd.png)
+![image.png](https://gyg-bawei-zg4-2103b.oss-cn-beijing.aliyuncs.com/ef13428859b15e1eb8192c704bc2f1dd.png)
 
 # **解决方案：**
 

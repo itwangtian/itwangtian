@@ -12,7 +12,7 @@ updated: "2023-09-28 21:31:41"
 通常情况下，咱们为用户添加权限时，除了页面权限，还会细化到按钮级别，比如、新增、删除、查看等权限。
 
 如下效果，切换用户登录后，操作权限除了左侧菜单，还有页面按钮。
-![按钮权限演示效果.gif](http://gyg-bawei-zg4-2103b.oss-cn-beijing.aliyuncs.com/1938e736e560aeba31c4a86a544d4f59.gif)
+![按钮权限演示效果.gif](https://gyg-bawei-zg4-2103b.oss-cn-beijing.aliyuncs.com/1938e736e560aeba31c4a86a544d4f59.gif)
 
 # 实现思路
 
@@ -78,19 +78,19 @@ function Dashboard() {
 
 结果不用说了，报错啊啊啊啊啊啊啊
 在 react-route6 中 无法自定义路由属性，报错日志如下
-![image.png](http://gyg-bawei-zg4-2103b.oss-cn-beijing.aliyuncs.com/f5c142f803ef7eac3c6b4f1539b52c2c.png)
+![image.png](https://gyg-bawei-zg4-2103b.oss-cn-beijing.aliyuncs.com/f5c142f803ef7eac3c6b4f1539b52c2c.png)
 
 # 实战代码
 
 ## 定义路由配置数据
 
 需和后端配合将按钮权限和页面路由一同返回
-![image.png](http://gyg-bawei-zg4-2103b.oss-cn-beijing.aliyuncs.com/aaac19c165fafb381f4bc58a223b5ec3.png)
+![image.png](https://gyg-bawei-zg4-2103b.oss-cn-beijing.aliyuncs.com/aaac19c165fafb381f4bc58a223b5ec3.png)
 
 ## 存储路由和按钮权限映射关系
 
 既然无法通过路由实例获取权限数据，那么我们手动创建一个对象，来存储路由和按钮权限映射关系，在用户登录后，执行如下代码
-![image.png](http://gyg-bawei-zg4-2103b.oss-cn-beijing.aliyuncs.com/88b5a799ab591a1a7ccb1dca1161653c.png)
+![image.png](https://gyg-bawei-zg4-2103b.oss-cn-beijing.aliyuncs.com/88b5a799ab591a1a7ccb1dca1161653c.png)
 
 ## 按钮权限组件
 
@@ -154,8 +154,8 @@ export default Index;
 ```
 
 模拟的路由数据：员工管理页面的路由、按钮配置
-![image.png](http://gyg-bawei-zg4-2103b.oss-cn-beijing.aliyuncs.com/4bc4fbc81d7961f40627e284885c52f6.png)
+![image.png](https://gyg-bawei-zg4-2103b.oss-cn-beijing.aliyuncs.com/4bc4fbc81d7961f40627e284885c52f6.png)
 
 ## 页面效果如下：
 
-![](http://gyg-bawei-zg4-2103b.oss-cn-beijing.aliyuncs.com/1938e736e560aeba31c4a86a544d4f59.gif)
+![](https://gyg-bawei-zg4-2103b.oss-cn-beijing.aliyuncs.com/1938e736e560aeba31c4a86a544d4f59.gif)

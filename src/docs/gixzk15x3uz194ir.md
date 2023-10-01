@@ -149,11 +149,11 @@ npm eject
 ```
 
 打开 config 目录，config/paths.js 更改打包目录为 dist
-![image.png](http://gyg-bawei-zg4-2103b.oss-cn-beijing.aliyuncs.com/26df3f464b8fe8c706df4513b0503171.png)
+![image.png](https://gyg-bawei-zg4-2103b.oss-cn-beijing.aliyuncs.com/26df3f464b8fe8c706df4513b0503171.png)
 
 4. 4. 正确配置 ts 文件监听
 
-![image.png](http://gyg-bawei-zg4-2103b.oss-cn-beijing.aliyuncs.com/bde677ce7b67a9addfb9d298b528afd0.png)
+![image.png](https://gyg-bawei-zg4-2103b.oss-cn-beijing.aliyuncs.com/bde677ce7b67a9addfb9d298b528afd0.png)
 
 5. 5. 配置打包出口文件
 

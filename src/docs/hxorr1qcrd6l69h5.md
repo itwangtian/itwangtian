@@ -12,4 +12,4 @@ updated: "2023-09-19 19:15:01"
 
 用 chatgpt 做一些繁杂简单的配置工作，简直是太爽啦
 比如把一个代码片段发过去，让 chatgpt 直接生成配置文件，省区了一个个添加换行符了
-![image.png](http://gyg-bawei-zg4-2103b.oss-cn-beijing.aliyuncs.com/67beb1231528737a08ada07f088c3dde.png)
+![image.png](https://gyg-bawei-zg4-2103b.oss-cn-beijing.aliyuncs.com/67beb1231528737a08ada07f088c3dde.png)

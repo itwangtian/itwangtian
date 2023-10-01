@@ -6,7 +6,7 @@ updated: "2023-08-17 17:22:07"
 ---
 
 npx cz 执行后，无法弹出交互选择，报错如下：
-![image.png](http://gyg-bawei-zg4-2103b.oss-cn-beijing.aliyuncs.com/aad3c0c873ccb25b51404a924ab46a25.png)
+![image.png](https://gyg-bawei-zg4-2103b.oss-cn-beijing.aliyuncs.com/aad3c0c873ccb25b51404a924ab46a25.png)
 解决方法：
 强制安装
 

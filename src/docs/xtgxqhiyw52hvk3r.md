@@ -10,7 +10,7 @@ updated: "2023-08-25 09:41:03"
 最近一直在调研图片上传阿里云 oss 功能，上篇文章主要讲述了阿里云 oss 大文件分片、断点续传。这篇文章是在原有基础上，前端加了图片剪裁、后端加了本地存储功能。
 
 先看效果
-![图片剪裁上传 -original-original.gif](http://gyg-bawei-zg4-2103b.oss-cn-beijing.aliyuncs.com/25fe98ae60b1fe13a9957fc6db91bc6a.gif)
+![图片剪裁上传 -original-original.gif](https://gyg-bawei-zg4-2103b.oss-cn-beijing.aliyuncs.com/25fe98ae60b1fe13a9957fc6db91bc6a.gif)
 技术栈
 
 1. 前端：`react+Ts+antd`
@@ -214,7 +214,7 @@ router.post(
 ## Koa 接收不到 file 对象内容
 
 正常情况下，引入 koa-body 中间件后，可以获取到前端表单数据，如下：
-![image.png](http://gyg-bawei-zg4-2103b.oss-cn-beijing.aliyuncs.com/53ec54d23408d6328f887b83b2f0b604.png)
+![image.png](https://gyg-bawei-zg4-2103b.oss-cn-beijing.aliyuncs.com/53ec54d23408d6328f887b83b2f0b604.png)
 **如果获取不到，大概率是 routes 代码书写顺序错乱导致**
 **⚠ 中间件的应用需要写在 routes 前面才可以**
 正常执行顺序如下：

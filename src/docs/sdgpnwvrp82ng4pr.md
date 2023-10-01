@@ -10,7 +10,7 @@ updated: "2023-09-21 23:37:52"
 使用 react-redux 的朋友都经历过这种痛苦吧？
 定义一个 store 仓库，首先创建各种文件，比如 reducer、action、store...，然后 将 redux 和 react 连接使用。整个流程繁琐，写起来代码冗余。
 文件目录如下：
-![image.png](http://gyg-bawei-zg4-2103b.oss-cn-beijing.aliyuncs.com/4a127ef650f2eb82db65a1745bc5b0a1.png)
+![image.png](https://gyg-bawei-zg4-2103b.oss-cn-beijing.aliyuncs.com/4a127ef650f2eb82db65a1745bc5b0a1.png)
 好怀念使用 vuex 创建写仓库的日子.......
 知道有一天我发现了 redux-toolkit ，原来 redux 还能这样写呀！
 
@@ -228,7 +228,7 @@ extraReducers
 
 ## 使用 connect 函数将 store 内的数据映射到组件 props 内
 
-![](http://gyg-bawei-zg4-2103b.oss-cn-beijing.aliyuncs.com/82abda9caaeaef45fae71e75afa81499.png)
+![](https://gyg-bawei-zg4-2103b.oss-cn-beijing.aliyuncs.com/82abda9caaeaef45fae71e75afa81499.png)
 
 ```tsx
 import React, { PureComponent } from "react";

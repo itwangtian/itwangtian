@@ -65,7 +65,7 @@ npm init @eslint/config
 ```
 
 参考如下 gif 操作：
-![](http://gyg-bawei-zg4-2103b.oss-cn-beijing.aliyuncs.com/0b3e67594365cd8d5f5778e312c262f9.gif)
+![](https://gyg-bawei-zg4-2103b.oss-cn-beijing.aliyuncs.com/0b3e67594365cd8d5f5778e312c262f9.gif)
 执行完成后，自动生成 eslint 配置文件`.eslintrc.js`
 可在 `.eslintrc.js` 中配置 rules 定义校验规则
 
@@ -131,7 +131,7 @@ npm run prepare
 ```
 
 如图，执行成功后，项目中生成一个 .husky 目录
-![image.png](http://gyg-bawei-zg4-2103b.oss-cn-beijing.aliyuncs.com/aa3a425e15083a3264975b2fadff6cf0.png)
+![image.png](https://gyg-bawei-zg4-2103b.oss-cn-beijing.aliyuncs.com/aa3a425e15083a3264975b2fadff6cf0.png)
 
 > 注意！如未生成 .husky 目录，推荐使用命令 `npx husky install`
 
@@ -148,7 +148,7 @@ npx husky add .husky/pre-commit "npm test"
 ```
 
 执执行成功，.husky 目录多出一个 pre-commit 文件
-![1G4XQYMS(L9[LGM9_NG}2)M.png](http://gyg-bawei-zg4-2103b.oss-cn-beijing.aliyuncs.com/5bfc5d37f2ce1a6d2443673fe92ee608.png)
+![1G4XQYMS(L9[LGM9_NG}2)M.png](https://gyg-bawei-zg4-2103b.oss-cn-beijing.aliyuncs.com/5bfc5d37f2ce1a6d2443673fe92ee608.png)
 
 > 注意！`window`电脑输入后，可能会报错如下
 
@@ -259,7 +259,7 @@ module.exports = {
 
 第一种，在 vscode 设置里面配置
 点击 Vscode 的设置=>工作区=>文本编辑器
-![image.png](http://gyg-bawei-zg4-2103b.oss-cn-beijing.aliyuncs.com/268dad124034f5a656244577dfc24089.png)
+![image.png](https://gyg-bawei-zg4-2103b.oss-cn-beijing.aliyuncs.com/268dad124034f5a656244577dfc24089.png)
 
 # Commitizen
 
@@ -490,7 +490,7 @@ npm install --save-dev eslint @typescript-eslint/eslint-plugin @typescript-eslin
 
 2、`.eslintrc.js` 文件，配置 root：true
 
-> root 被设置为 true 时，ESLint 使用当前配置文件作为根配，将停止在父级目录中查找其他配置文件。![image.png](http://gyg-bawei-zg4-2103b.oss-cn-beijing.aliyuncs.com/fc5536b74d92da34bf6d018c9a82cd25.png)
+> root 被设置为 true 时，ESLint 使用当前配置文件作为根配，将停止在父级目录中查找其他配置文件。![image.png](https://gyg-bawei-zg4-2103b.oss-cn-beijing.aliyuncs.com/fc5536b74d92da34bf6d018c9a82cd25.png)
 
 ## Warning: React version not specified
 

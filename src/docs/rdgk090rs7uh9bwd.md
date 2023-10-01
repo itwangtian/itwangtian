@@ -12,4 +12,4 @@ updated: "2023-08-12 16:30:26"
 set-executionpolicy remotesigned
 ```
 
-![L}SSDZ}5V44~)0JF_7EC7DP.png](http://gyg-bawei-zg4-2103b.oss-cn-beijing.aliyuncs.com/1561f6f612253b828e94d04fdcc5d90c.png)
+![L}SSDZ}5V44~)0JF_7EC7DP.png](https://gyg-bawei-zg4-2103b.oss-cn-beijing.aliyuncs.com/1561f6f612253b828e94d04fdcc5d90c.png)

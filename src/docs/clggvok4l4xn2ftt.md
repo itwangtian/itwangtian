@@ -5,7 +5,7 @@ date: "2023-08-23 08:45:05"
 updated: "2023-09-11 14:44:52"
 ---
 
-# ![image.png](http://gyg-bawei-zg4-2103b.oss-cn-beijing.aliyuncs.com/3f3b667674708d02c7a0cc83390a84ac.png)
+# ![image.png](https://gyg-bawei-zg4-2103b.oss-cn-beijing.aliyuncs.com/3f3b667674708d02c7a0cc83390a84ac.png)
 
 # ES7+ React/Redux/React-Native snippets
 

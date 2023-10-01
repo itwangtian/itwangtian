@@ -8,7 +8,7 @@ updated: "2023-09-10 22:20:58"
 # 问题描述
 
 使用 react 脚手架创建项目后，执行 npx run eject 报错
-![image.png](http://gyg-bawei-zg4-2103b.oss-cn-beijing.aliyuncs.com/6d70ded04181fee25821487c1b745ae7.png)
+![image.png](https://gyg-bawei-zg4-2103b.oss-cn-beijing.aliyuncs.com/6d70ded04181fee25821487c1b745ae7.png)
 
 # 原因
 

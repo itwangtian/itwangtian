@@ -15,9 +15,9 @@ Token 鉴权是一种基于令牌的身份验证方式。用户登录成功后�
 
 ## token 和 jsonwebtoken 流程图
 
-token -接口访问凭证![](http://gyg-bawei-zg4-2103b.oss-cn-beijing.aliyuncs.com/3afca19611725d4df57137367b2cb5fc.webp)
+token -接口访问凭证![](https://gyg-bawei-zg4-2103b.oss-cn-beijing.aliyuncs.com/3afca19611725d4df57137367b2cb5fc.webp)
 💡jwt（鉴权常用方案）
-![IMG_4169.JPG](http://gyg-bawei-zg4-2103b.oss-cn-beijing.aliyuncs.com/d297c2030dd23a666a263301aaa6343b.jpeg)
+![IMG_4169.JPG](https://gyg-bawei-zg4-2103b.oss-cn-beijing.aliyuncs.com/d297c2030dd23a666a263301aaa6343b.jpeg)
 
 ## 无感刷新 token 处理方案
 
@@ -31,7 +31,7 @@ token -接口访问凭证![](http://gyg-bawei-zg4-2103b.oss-cn-beijing.aliyuncs.
 - access（业务 token）
 
 为了安全期间，每个 access token 有效时间通常不能设太长，而 refresh token 就是为了延长 access token 的有效时间的，一开始就 refresh token，那明显不符合
-![](http://gyg-bawei-zg4-2103b.oss-cn-beijing.aliyuncs.com/4764bd028d00d2a05c11a91ffe508756.webp)
+![](https://gyg-bawei-zg4-2103b.oss-cn-beijing.aliyuncs.com/4764bd028d00d2a05c11a91ffe508756.webp)
 
 ### 定义一个 token
 

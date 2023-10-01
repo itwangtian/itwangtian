@@ -87,7 +87,7 @@ tsc - v;
 主流开发工具均支持 typeScript 语法，我个人推荐 vs Code，集成丰富插件，语法提示、代码补全等功能。
 下载安装：[Visual Studio Code - Code Editing. Redefined](https://code.visualstudio.com/)
 **中文语言包 **vsCode 默认下载是英文配置，如需中文，需下载 chines 语言包
-![](http://gyg-bawei-zg4-2103b.oss-cn-beijing.aliyuncs.com/b1fe4709f93b098011ae81fb8fb47fc1.png)
+![](https://gyg-bawei-zg4-2103b.oss-cn-beijing.aliyuncs.com/b1fe4709f93b098011ae81fb8fb47fc1.png)
 
 ## 03 hi typeScript
 
@@ -111,7 +111,7 @@ tsc hi.js
 ```
 
 执行成功，会生成一个同名的 js 文件
-![](http://gyg-bawei-zg4-2103b.oss-cn-beijing.aliyuncs.com/ce14bec0f91739d646ad9775c7bdd3d6.png)
+![](https://gyg-bawei-zg4-2103b.oss-cn-beijing.aliyuncs.com/ce14bec0f91739d646ad9775c7bdd3d6.png)
 内容如下：
 
 ```javascript

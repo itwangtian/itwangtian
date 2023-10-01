@@ -9,13 +9,13 @@ updated: "2023-09-30 20:28:30"
 
 这两天在尝试用语雀＋ vuepress ＋ github 搭建个人博客。
 语雀作为编辑器，发布文档推送 github，再自动构建 vuepress，部署个人站点、或者 gitpage，大概流程如下。
-![](http://gyg-bawei-zg4-2103b.oss-cn-beijing.aliyuncs.com/51fdf06c7ce3a1f91976e2528b2bd954.jpeg)
+![](https://gyg-bawei-zg4-2103b.oss-cn-beijing.aliyuncs.com/51fdf06c7ce3a1f91976e2528b2bd954.jpeg)
 
 ## 问题
 
 我使用的`elog`插件批量导出语雀文档。`elog`采用的配置是所有文章平铺导出，没有按照语雀知识库目录生成`markdown`，这导致 vuepress 侧边栏无法和语雀一致，如下图。
 
-![image.png](http://gyg-bawei-zg4-2103b.oss-cn-beijing.aliyuncs.com/6dbd6d8b65e17693770347edb53eb0db.png)
+![image.png](https://gyg-bawei-zg4-2103b.oss-cn-beijing.aliyuncs.com/6dbd6d8b65e17693770347edb53eb0db.png)
 上图，左侧是语雀知识库，右侧是导出到 vuepress 展示的效果，很明显没有目录这很影响阅读体验呀
 
 ## 解决

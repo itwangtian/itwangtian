@@ -19,7 +19,7 @@ function identity<T>(value: T): T {
 }
 ```
 
-![](http://gyg-bawei-zg4-2103b.oss-cn-beijing.aliyuncs.com/9c916d9dd1520d5df73760365ae07ef9.webp)
+![](https://gyg-bawei-zg4-2103b.oss-cn-beijing.aliyuncs.com/9c916d9dd1520d5df73760365ae07ef9.webp)
 在上述代码中，`<T>` 表示这是一个泛型函数，`T` 是一个类型参数，可以是任何类型。函数的参数 `arg` 的类型为 `T`，返回值的类型也是 `T`。这样，我们可以在函数调用时传入不同的类型参数，使得函数适用于各种类型的参数。
 
 例如，我们可以这样调用 `identity` 函数：

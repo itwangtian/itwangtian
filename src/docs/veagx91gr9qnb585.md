@@ -8,7 +8,7 @@ updated: "2023-08-14 19:29:55"
 # 场景
 
 执行后 git add . 、git commit 也设置了远端仓库地址，最后推送远端仓库报错，如下：
-![image.png](http://gyg-bawei-zg4-2103b.oss-cn-beijing.aliyuncs.com/64b2e090821f312adf175fceb8e1f9c7.png)
+![image.png](https://gyg-bawei-zg4-2103b.oss-cn-beijing.aliyuncs.com/64b2e090821f312adf175fceb8e1f9c7.png)
 
 # 问题原因：
 

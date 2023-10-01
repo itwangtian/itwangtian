@@ -7,10 +7,10 @@ updated: "2023-08-26 09:40:51"
 
 # 前言
 
-这两天在学习阿里云 oss 上传。踩了不少坑，![092318F5.png](http://gyg-bawei-zg4-2103b.oss-cn-beijing.aliyuncs.com/a612e66218d3d2c4d2fd19368317e17a.png) 终于实现了大文件分片、断点续传的功能。这篇文章主要分享学习笔记，希望能给大家一些帮助。
+这两天在学习阿里云 oss 上传。踩了不少坑，![092318F5.png](https://gyg-bawei-zg4-2103b.oss-cn-beijing.aliyuncs.com/a612e66218d3d2c4d2fd19368317e17a.png) 终于实现了大文件分片、断点续传的功能。这篇文章主要分享学习笔记，希望能给大家一些帮助。
 
 先看效果 ↓
-![oss断点 -original-original.gif](http://gyg-bawei-zg4-2103b.oss-cn-beijing.aliyuncs.com/4f1d196bd7937f1a276ced97e4c2cc9c.gif)
+![oss断点 -original-original.gif](https://gyg-bawei-zg4-2103b.oss-cn-beijing.aliyuncs.com/4f1d196bd7937f1a276ced97e4c2cc9c.gif)
 **技术栈**
 
 1. 前端： react+Ts + axios 上传文件
@@ -20,7 +20,7 @@ updated: "2023-08-26 09:40:51"
 
 # 环境安装
 
-![08E1CE2D.gif](http://gyg-bawei-zg4-2103b.oss-cn-beijing.aliyuncs.com/63f63f96d60f8234794a9f2035634df1.gif)需进行阿里云 oss 配置，获取 appid、密钥等参数 ↓[阿里云登录 - 欢迎登录阿里云，安全稳定的云计算服务平台](https://ram.console.aliyun.com/manage/ak?spm=a2c8b.12215393.top-nav.dak.6c12336aYGPYmv)
+![08E1CE2D.gif](https://gyg-bawei-zg4-2103b.oss-cn-beijing.aliyuncs.com/63f63f96d60f8234794a9f2035634df1.gif)需进行阿里云 oss 配置，获取 appid、密钥等参数 ↓[阿里云登录 - 欢迎登录阿里云，安全稳定的云计算服务平台](https://ram.console.aliyun.com/manage/ak?spm=a2c8b.12215393.top-nav.dak.6c12336aYGPYmv)
 以下是创建 node 服务所需依赖包
 
 ```javascript
@@ -380,7 +380,7 @@ socket.on("error", (err) => {
 });
 ```
 
-# 注意![08E1CE2D.gif](http://gyg-bawei-zg4-2103b.oss-cn-beijing.aliyuncs.com/63f63f96d60f8234794a9f2035634df1.gif)
+# 注意![08E1CE2D.gif](https://gyg-bawei-zg4-2103b.oss-cn-beijing.aliyuncs.com/63f63f96d60f8234794a9f2035634df1.gif)
 
 **socket 开启跨越**
 :::warning

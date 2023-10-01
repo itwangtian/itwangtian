@@ -48,7 +48,7 @@ node Runoob.js  // 输出 Hello World
 ```
 
 整个流程如下图所示：
-![image.png](http://gyg-bawei-zg4-2103b.oss-cn-beijing.aliyuncs.com/e715952150dc8c53dc56fd2f7bd840b6.png)
+![image.png](https://gyg-bawei-zg4-2103b.oss-cn-beijing.aliyuncs.com/e715952150dc8c53dc56fd2f7bd840b6.png)
 我们可以同时编译多个 ts 文件：
 
 ```javascript
@@ -66,7 +66,7 @@ TypeScript 是一种面向对象的编程语言。
 - **方法**：方法是类的操作的实现步骤。
 
 下图中 **girl、boy** 为类，而具体的每个人为该类的对象：
-![image.png](http://gyg-bawei-zg4-2103b.oss-cn-beijing.aliyuncs.com/30657b77a7aeefd32a1a378af76f82af.png)
+![image.png](https://gyg-bawei-zg4-2103b.oss-cn-beijing.aliyuncs.com/30657b77a7aeefd32a1a378af76f82af.png)
 TypeScript 面向对象编程实例：
 
 ```javascript

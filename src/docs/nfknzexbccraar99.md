@@ -103,7 +103,7 @@ console.log(1 + '1');
 
 python 是强类型语言，如下分别执行 1+1 、1+"1"，1+1 相同类型计算正常运行，当运行 number 类型 1 + string 1 时，报错。
 
-![image.png](http://gyg-bawei-zg4-2103b.oss-cn-beijing.aliyuncs.com/a51d4bbf95d44deba4763cb44d482606.png)
+![image.png](https://gyg-bawei-zg4-2103b.oss-cn-beijing.aliyuncs.com/a51d4bbf95d44deba4763cb44d482606.png)
 强制类型转换后 可正常输入
-![image.png](http://gyg-bawei-zg4-2103b.oss-cn-beijing.aliyuncs.com/72b44e1451bfa3aafe2c8547a683322c.png)
+![image.png](https://gyg-bawei-zg4-2103b.oss-cn-beijing.aliyuncs.com/72b44e1451bfa3aafe2c8547a683322c.png)
 typescript 可以借助自身类型系统， 配合 eslint 的代码检查能力，跟进一步向强类型语言靠近。
