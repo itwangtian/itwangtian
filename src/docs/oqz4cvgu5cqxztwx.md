@@ -2,7 +2,7 @@
 title: react 基础操作-语法、特性 、路由配置
 urlname: oqz4cvgu5cqxztwx
 date: "2023-07-26 09:26:42"
-updated: "2023-09-15 11:09:47"
+updated: "2023-10-01 21:39:50"
 ---
 
 # 数据更新不渲染页面？react 函数组件避坑
@@ -157,19 +157,17 @@ useContext 函数接受一个上下文对象，并返回当前上下文的值。
 
 在 React Router v6 中，一些常用的组件包括：
 
-1. <BrowserRouter>：用于提供基于浏览器的导航功能。
-2. <Link>：用于生成导航链接，导航到指定的路由。
-3. <Route>：用于定义路由和相应的组件。
-4. <Routes>：用于定义路由配置的容器，包含多个 <Route>。
-5. <Outlet>：用于在父级路由组件中渲染子级路由组件。
-6. <Navigate>：用于执行编程式导航操作。
-7. <Match>：用于条件渲染组件，根据当前路由匹配结果来确定是否渲染。
-8. <UseMatch>：用于在组件中访问路由匹配信息。
+1. `<BrowserRouter>`：用于提供基于浏览器的导航功能。
+2. `<Link>`：用于生成导航链接，导航到指定的路由。
+3. `<Route>`：用于定义路由和相应的组件。
+4. `<Routes>`：用于定义路由配置的容器，包含多个 `<Route>`。
+5. `<Outlet>`： 用于在父级路由组件中渲染子级路由组件。
+6. `Navigate`：用于执行编程式导航操作。
+7. `Match`：用于条件渲染组件，根据当前路由匹配结果来确定是否渲染。
+8. `UseMatch`：用于在组件中访问路由匹配信息。
 
 这里只是列举了一些常用的组件，React Router v6 还提供了其他的功能和辅助组件。具体使用哪些组件，取决于你的需求和项目的路由配置。
 
 需要注意的是，React Router v6 的 API 和用法与之前的版本（如 v5）有很大的变化。
 
 可以在官方文档中找到有关 React Router v6 的更多信息：[https://reactrouter.com/docs/en/v6/getting-started/introduction](https://reactrouter.com/docs/en/v6/getting-started/introduction)
-
-#
