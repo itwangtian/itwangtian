@@ -143,7 +143,7 @@ let box2 = new Box<string>("Hello");
 console.log(box2.getValue()); // 输出：Hello
 ```
 
-过使用泛型参数 <T>，可以在类的定义中引入类型变量来表示未知的类型。这样一来，我们可以在类实例化时指定具体的类型，从而创建适用于不同类型数据的类的实例。
+过使用泛型参数 `<T>`，可以在类的定义中引入类型变量来表示未知的类型。这样一来，我们可以在类实例化时指定具体的类型，从而创建适用于不同类型数据的类的实例。
 
 ## 5. 泛型约束：
 
@@ -182,7 +182,7 @@ console.log(getLength(arr)); // 输出：5
 ### 5.2 检查对象的 key
 
 1、keyof typescript 中检测类型的方法，以联合类型的方式方返回类型的所有 key
-2、搭配泛型约、<T,K extends keyof T >
+2、搭配泛型约、`<T,K extends keyof T >` 
 
 refs[https://juejin.cn/post/6844904184894980104#heading-0](https://juejin.cn/post/6844904184894980104#heading-0)
 使用泛型，可以让我们在编译前发现错误。
