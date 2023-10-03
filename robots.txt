@@ -1,0 +1,3 @@
+Sitemap: https://itwangtian.com/sitemap.xml
+
+User-agent: *

@@ -15,13 +15,13 @@ actions:
     type: primary
 
   - text: 王天博客
-    link: ./guide/
+    link: ./blog/
 
 projects:
   - icon: project
     name: react+ts实战开发
     desc: 从零到1学习react
-    link: https://你的项目链接
+    link: ./docs/
 
   - icon: link
     name: 王天的魔法工具盒

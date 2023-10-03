@@ -11,11 +11,11 @@ heroFullScreen: true
 tagline: 包括不限于 vue、react、ts、 uniapp  
 actions:
   - text: 上车学习 💡
-    link: ./demo/
+    link: ./docs/
     type: primary
 
   - text: 王天博客
-    link: ./guide/
+    link: ./blog/
 
 projects:
   - icon: project
