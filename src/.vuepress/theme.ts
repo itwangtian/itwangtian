@@ -27,8 +27,13 @@ export default hopeTheme({
   // sidebar
   sidebar,
 
-  footer:  `<img src="https://www.beian.gov.cn/img/new/gongan.png" >
-  <a href="https://beian.miit.gov.cn/" target="_blank">豫ICP备2020025758号-2</a> | Copyright © 2023-present
+  footer:  `<img src="https://www.beian.gov.cn/img/new/gongan.png" style="position: relative;
+  top: 3px;
+  left: 6px;">
+  <a target="_blank" href="http://www.beian.gov.cn/portal/registerSystemInfo?recordcode=11010602105191" style="display:inline-block;text-decoration:none;height:20px;line-height:20px;"><p style="height:20px;line-height:20px;margin: 0px 0px 0px 5px; color:#939393;">京公网安备 11010602105191号</p></a>
+ 
+  <a href="https://beian.miit.gov.cn/" style="height:20px;line-height:20px;margin: 0px 0px 0px 5px; color:#939393;" target="_blank">豫ICP备2020025758号-2</a>		 
+|  Copyright © 2023-present
  `,
 
   displayFooter: true,
