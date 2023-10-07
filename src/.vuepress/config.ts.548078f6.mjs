@@ -93,7 +93,7 @@ var theme_default = hopeTheme({
   navbar: navbar_default,
   // sidebar
   sidebar: sidebar_default,
-  footer: `<img src="https://www.beian.gov.cn/img/new/gongan.png" >
+  footer: `<img src="https://www.itwangtian.com/beian.png" >
   <a href="https://beian.miit.gov.cn/" target="_blank">\u8C6BICP\u59072020025758\u53F7-2</a> | Copyright \xA9 2023-present
  `,
   displayFooter: true,

@@ -34,7 +34,7 @@ projects:
     link: https://你的书籍链接
 
 footer: <div style="color:#939393">
-  <img src="https://www.beian.gov.cn/img/new/gongan.png" >
+  <img src="https://www.itwangtian.com/beian.png" >
   <a target="_blank" style="color:#939393" href="http://www.beian.gov.cn/portal/registerSystemInfo?recordcode=11010602105191">京公网安备 11010602105191号</a> &nbsp;&nbsp;
   <a href="https://beian.miit.gov.cn/" style="color:#939393" target="_blank">豫ICP备2020025758号-2</a>&nbsp;&nbsp; | &nbsp;&nbsp;Copyright © 2023-present
   </div>
