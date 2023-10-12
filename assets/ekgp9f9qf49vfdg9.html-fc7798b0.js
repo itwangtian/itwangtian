@@ -1,1 +1,0 @@
-import{_ as e}from"./plugin-vue_export-helper-c27b6911.js";import{o,c as t,a as c}from"./app-4489eff6.js";const r={},s=c("p",null,"Koa/cros 写在 koa-router 之前，否则配置跨域试错",-1),_=[s];function a(f,n){return o(),t("div",null,_)}const i=e(r,[["render",a],["__file","ekgp9f9qf49vfdg9.html.vue"]]);export{i as default};
