@@ -37,6 +37,9 @@ footer: <div style="color:#939393">
   <img src="https://www.itwangtian.com/beian.png" >
   <a target="_blank" style="color:#939393" href="http://www.beian.gov.cn/portal/registerSystemInfo?recordcode=11010602105191">京公网安备 11010602105191号</a> &nbsp;&nbsp;
   <a href="https://beian.miit.gov.cn/" style="color:#939393" target="_blank">豫ICP备2020025758号-2</a>&nbsp;&nbsp; | &nbsp;&nbsp;Copyright © 2023-present
+ 
+   本站总访问量<span id="busuanzi_value_site_pv"></span>次
+  </span>  访客数<span id="busuanzi_value_site_uv"></span>人次
   </div>
 footerHtml: true 
 

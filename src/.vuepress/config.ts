@@ -13,7 +13,14 @@ export default defineUserConfig({
         type:'text/javascript',
         src:'https://hm.baidu.com/hm.js?ff5e95667789a353e9be4e467e13ff3a'
       }, 
+  
     ]
+    ,
+    [   'script', {
+      type:'text/javascript',
+      src:'http://busuanzi.ibruce.info/busuanzi/2.3/busuanzi.pure.mini.js'
+    }, ]
+   
   ],
   base: "/",
   lang: "zh-CN",
