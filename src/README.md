@@ -14,7 +14,7 @@ actions:
     link: ./docs/
     type: primary
 
-  - text: 王天博客
+  - text: 王天博客 ┗|｀O′|┛ 嗷~~
     link: ./blog/
 
 projects:
