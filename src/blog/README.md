@@ -14,7 +14,7 @@ actions:
     link: ./docs/
     type: primary
 
-  - text: 王天博客
+  - text: 王天博客  灬
     link: ./blog/
 
 projects:
@@ -29,7 +29,7 @@ projects:
     link: https://链接地址
 
   - icon: book
-    name: 开源项目
+    name: 开源项目111
     desc: 一些有用的工具库，希望对你有帮助
     link: https://你的书籍链接
 
