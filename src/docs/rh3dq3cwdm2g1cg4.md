@@ -2,10 +2,11 @@
 title: reactRouter 实现页面级按钮权限
 urlname: rh3dq3cwdm2g1cg4
 date: "2023-09-28 20:42:34"
-updated: "2023-09-28 21:31:41"
+updated: "2023-10-03 18:00:40"
 ---
 
-大家好，我是王天，这篇文章以页面按钮权限为主题、讲解了实现思路，reactRouter vs vueRouter 区别、踩坑记录，代码实现。嫌啰嗦的朋友，直接拖到最后一章节看代码哦。
+大家好，我是王天～
+今天咱们用 reac+reactRouter 来实现页面级的按钮权限功能。这篇文章分三部分，实现思路、踩坑记录，代码实现。嫌啰嗦的朋友，直接拖到最后一章节看代码哦。
 
 # 前言
 
@@ -30,66 +31,18 @@ updated: "2023-09-28 21:31:41"
 3. 封装按钮权限组件，动态显隐按钮
    :::
 
-## vueRouter vs ReactRouter
-
-### vueRouter
-
-此方案，在 vue 中实现比较方便，使用 vueRouter 配置路由元信息、添加权限校验的参数，在页面路由实例中读取 meta 数据，进行页面级别的按钮权限控制。
-
-### ReactRouter
-
-但是，在 react-Router6 版本中没有路由元信息配置，就算自定义路由属性，也无法获取，如下是踩坑代码，大家看看就行，可不要尝试了
-
-## 踩坑记录
-
-踩坑代码-添加路由自定义属性，获取权限数据首先，在路由配置中设置自定义属性，例如 title 和 requiresAuth：
-
-```tsx
-<Route
-  path="/dashboard"
-  element={<Dashboard />}
-  title="Dashboard"
-  requiresAuth={true}
-/>
-```
-
-然后，在 Dashboard 组件中可以通过 useRoutes() 钩子获取路由传递的属性，如下所示：
-
-```tsx
-import { useRoutes, useParams, useNavigate } from "react-router-dom";
-
-function Dashboard() {
-  const params = useParams();
-  const navigate = useNavigate();
-
-  // 访问路由传递的属性
-  const { title, requiresAuth } = useRoutes().pathname;
-
-  // 在这里使用元信息进行逻辑处理
-
-  return (
-    <div>
-      <h1>{title}</h1>
-      {/* 组件的其余部分 */}
-    </div>
-  );
-}
-```
-
-结果不用说了，报错啊啊啊啊啊啊啊
-在 react-route6 中 无法自定义路由属性，报错日志如下
-![image.png](https://gyg-bawei-zg4-2103b.oss-cn-beijing.aliyuncs.com/f5c142f803ef7eac3c6b4f1539b52c2c.png)
-
 # 实战代码
 
 ## 定义路由配置数据
 
-需和后端配合将按钮权限和页面路由一同返回
+需和后端配合，将按钮权限和页面路由一同返回
 ![image.png](https://gyg-bawei-zg4-2103b.oss-cn-beijing.aliyuncs.com/aaac19c165fafb381f4bc58a223b5ec3.png)
 
 ## 存储路由和按钮权限映射关系
 
-既然无法通过路由实例获取权限数据，那么我们手动创建一个对象，来存储路由和按钮权限映射关系，在用户登录后，执行如下代码
+既然无法通过路由实例获取权限数据，那么我们手动创建一个对象，来存储路由和按钮权限映射关系。
+用户登录后，在遍历生成路由配置同时、将按钮权限和页面路径的映射数据，存储本地。
+执行如下代码
 ![image.png](https://gyg-bawei-zg4-2103b.oss-cn-beijing.aliyuncs.com/88b5a799ab591a1a7ccb1dca1161653c.png)
 
 ## 按钮权限组件
@@ -156,6 +109,87 @@ export default Index;
 模拟的路由数据：员工管理页面的路由、按钮配置
 ![image.png](https://gyg-bawei-zg4-2103b.oss-cn-beijing.aliyuncs.com/4bc4fbc81d7961f40627e284885c52f6.png)
 
-## 页面效果如下：
+## 效果：
 
+当切换用户登录后，很明细发现右侧表格、操作按钮权限变化。效果如下
 ![](https://gyg-bawei-zg4-2103b.oss-cn-beijing.aliyuncs.com/1938e736e560aeba31c4a86a544d4f59.gif)
+以上全文完，最后总结一下 reactRoute 和 vueRouter 的实现区别。
+
+## vueRouter vs ReactRouter
+
+### vueRouter
+
+此方案中，在 vue 中实现比较方便，使用 vueRouter 配置路由`meta`元信息、为按钮权限的数据
+
+```tsx
+{
+  path: '/imgMove/:id',
+    name: 'imgMove',
+    meta: {
+    itwangtianAuth: true
+    // 此页面是否token校验
+  },
+  component: imgMove
+}
+```
+
+在页面路由实例中读取 meta 数据，进行页面级别的按钮权限控制。
+
+```javascript
+// 在 Vue 组件中获取路由的 meta 数据
+export default {
+  name: "ExampleComponent",
+  mounted() {
+    // 获取当前路由对应的路由记录
+    const route = this.$route;
+    // 获取该路由记录的 meta 数据
+    const meta = route.meta;
+    // 使用 meta 数据
+    console.log(meta.itwangtianAuth);
+  },
+};
+```
+
+### ReactRouter
+
+但是，在 react-Router6 版本中没有路由元信息配置，就算自定义路由属性，也无法获取，如下是踩坑代码，大家看看就行、可不要尝试了
+
+## 踩坑记录
+
+踩坑代码-添加路由自定义属性，获取权限数据首先，在路由配置中设置自定义属性，例如 title 和 requiresAuth：
+
+```tsx
+<Route
+  path="/dashboard"
+  element={<Dashboard />}
+  title="Dashboard"
+  requiresAuth={true}
+/>
+```
+
+然后，在 Dashboard 组件中可以通过 useRoutes() 钩子获取路由传递的属性，如下所示：
+
+```tsx
+import { useRoutes, useParams, useNavigate } from "react-router-dom";
+
+function Dashboard() {
+  const params = useParams();
+  const navigate = useNavigate();
+
+  // 访问路由传递的属性
+  const { title, requiresAuth } = useRoutes().pathname;
+
+  // 在这里使用元信息进行逻辑处理
+
+  return (
+    <div>
+      <h1>{title}</h1>
+      {/* 组件的其余部分 */}
+    </div>
+  );
+}
+```
+
+结果不用说了，报错啊啊啊啊啊啊啊
+在 react-route6 中 无法自定义路由属性，报错日志如下
+![image.png](https://gyg-bawei-zg4-2103b.oss-cn-beijing.aliyuncs.com/f5c142f803ef7eac3c6b4f1539b52c2c.png)

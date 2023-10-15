@@ -2,7 +2,7 @@
 title: Ts vs Js 谁适合前端开发？| 01
 urlname: gkpaocb8zzni39bg
 date: "2023-07-14 23:31:22"
-updated: "2023-09-02 22:04:30"
+updated: "2023-10-13 11:21:14"
 ---
 
 # Js VS Ts
@@ -66,7 +66,7 @@ TypeScript 的优势所在，总结下来有三点：
 推荐使用国内镜像
 
 ```javascript
-npm config set registry https://registry.npmmirror.com
+tsc;
 ```
 
 命令行安装

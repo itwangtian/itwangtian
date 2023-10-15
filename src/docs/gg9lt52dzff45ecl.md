@@ -2,10 +2,10 @@
 title: 学习react-redux，看这篇文章就够啦！
 urlname: gg9lt52dzff45ecl
 date: "2023-07-24 08:44:41"
-updated: "2023-09-19 19:59:34"
+updated: "2023-10-03 17:48:22"
 ---
 
-# redux 三大原则
+# redux 三大原则 x
 
 - 单一数据流
 - reducer 纯函数

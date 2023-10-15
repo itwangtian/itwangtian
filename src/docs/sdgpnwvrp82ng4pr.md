@@ -1,18 +1,18 @@
 ---
-title: redux-toolkit
+title: 如何提高redux开发效率？当然是redux-tookit啦！
 urlname: sdgpnwvrp82ng4pr
 date: "2023-09-19 12:00:35"
-updated: "2023-09-21 23:37:52"
+updated: "2023-10-07 23:22:07"
 ---
 
 # 前言
 
 使用 react-redux 的朋友都经历过这种痛苦吧？
 定义一个 store 仓库，首先创建各种文件，比如 reducer、action、store...，然后 将 redux 和 react 连接使用。整个流程繁琐，写起来代码冗余。
-文件目录如下：
+react-redux 创建仓库，文件目录如下：
 ![image.png](https://gyg-bawei-zg4-2103b.oss-cn-beijing.aliyuncs.com/4a127ef650f2eb82db65a1745bc5b0a1.png)
 好怀念使用 vuex 创建写仓库的日子.......
-知道有一天我发现了 redux-toolkit ，原来 redux 还能这样写呀！
+直到有一天我发现了 redux-toolkit ，原来 redux 还能这样写呀！
 
 # 什么是 redux-toolkit
 
@@ -141,12 +141,15 @@ export default Index;
 
 # 进阶使用
 
-redux 中如何执行异步呢？
+**redux 中如何执行异步呢？**
+`createAsyncThunk` 创建异步操作, 通常用于发出异步请求。
+`createAsyncThunk` 创建一个异步 action，方法触发的时候会有三种状态：
+
+- pending（进行中）
+- fulfilled（成功）
+- rejected（失败）
 
 ```typescript
-// // createAsyncThunk 创建异步操作, 通常用于发出异步请求。
-// createAsyncThunk 创建一个异步action，方法触发的时候会有三种状态：
-// pending（进行中）、fulfilled（成功）、rejected（失败）
 export const getMovieData: any = createAsyncThunk(
   "sliceTable/getMovie",
   async () => {
@@ -224,7 +227,7 @@ export default sliceName.reducer;
 ```
 
 extraReducers
-// extraReducers 字段让 slice 处理在别处定义的 actions， // 包括由 createAsyncThunk 或其他 slice 生成的 actions。
+// extraReducers 字段让 slice 处理在别处定义的 actions， // 包括由 createAsyncg 或其他 slice 生成的 actions。
 
 ## 使用 connect 函数将 store 内的数据映射到组件 props 内
 

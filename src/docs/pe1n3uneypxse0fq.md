@@ -2,7 +2,7 @@
 title: 前端规范指南，让团队代码如出一辙！ESLint + Prettier + husky + lint-staged
 urlname: pe1n3uneypxse0fq
 date: "2023-07-17 15:39:46"
-updated: "2023-09-12 10:31:19"
+updated: "2023-10-14 22:12:10"
 ---
 
 > 本文从两个方向出发：1、git 提交规范；2、代码风格统一

@@ -13,7 +13,7 @@
     "build:a": "vuepress build src",
     "build:b": "npm run upbt",
     "build": "npm-run-all build:a build:b",
-    "sync": "elog sync -e  .elog.env"
+    "sync": "elog sync -e .elog.env"
   },
   "devDependencies": {
     "@vuepress/client": "2.0.0-beta.67",
