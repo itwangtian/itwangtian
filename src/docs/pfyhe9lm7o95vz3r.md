@@ -19,8 +19,6 @@ updated: "2023-09-10 22:20:58"
 1、删除 git 相关配置文件
 2、初始化 git 仓库，提交代码
 
-
-
 ```typescript
 cd  project	//进入项目根目录
 git init　　// 当前目录新建代码库
