@@ -19,10 +19,12 @@ updated: "2023-09-10 22:20:58"
 1、删除 git 相关配置文件
 2、初始化 git 仓库，提交代码
 
+
+
 ```typescript
 cd  project	//进入项目根目录
 git init　　// 当前目录新建代码库
 git add .　　// 添加当前目录所有文件到暂存区
 git commit -m '描述信息'　　// 提交暂存区到仓库区
 npm run eject	//项目根目录运行
-```
+ 
