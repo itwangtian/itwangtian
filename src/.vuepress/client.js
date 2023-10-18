@@ -20,8 +20,10 @@
 //   };
 
 import { defineClientConfig } from "@vuepress/client";
-console.log('路由守卫了')
+ 
+ 
 export default defineClientConfig({
+ 
   enhance({ router }) {
       router.beforeEach((to, from, next) => {
       console.log("切换路由", to.fullPath, from.fullPath);
