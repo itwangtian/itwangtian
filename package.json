@@ -26,7 +26,7 @@
   },
   "dependencies": {
     "@elog/cli": "0.7.3-beta.1",
-    "@vuepress/utils": "^2.0.0-alpha.1",
+    "@vuepress/utils": "2.0.0-beta.67",
     "pnpm": "^8.7.6",
     "vuepress-plugin-search-pro": "2.0.0-beta.237"
   }

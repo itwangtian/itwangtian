@@ -8,6 +8,9 @@ dependencies:
   '@elog/cli':
     specifier: 0.7.3-beta.1
     version: 0.7.3-beta.1
+  '@vuepress/utils':
+    specifier: 2.0.0-beta.67
+    version: 2.0.0-beta.67
   pnpm:
     specifier: ^8.7.6
     version: 8.7.6
