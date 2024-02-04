@@ -34,7 +34,7 @@ export default defineUserConfig({
   ],
   base: "/",
   lang: "zh-CN",
-  title: "王天的web进阶之路",
+  title: "web进阶指南",
   description: "前端编程技术分享！ itwangtian",
 
  

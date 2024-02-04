@@ -8,7 +8,7 @@ heroText: 前端编程技术分享
 bgImage: https://theme-hope-assets.vuejs.press/bg/6-light.svg
 bgImageDark: https://theme-hope-assets.vuejs.press/bg/6-dark.svg
 heroFullScreen: true
-tagline: 包括不限于 vue、react、ts、 uniapp  
+tagline: 王天 98年👦🏻 |   零基础转行前端 | 工作7年  持续分享前端知识，助力0~2年的前端新人
 actions:
   - text: 上车学习 💡
     link: ./docs/

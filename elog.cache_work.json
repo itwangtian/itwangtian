@@ -1,0 +1,431 @@
+{
+  "docs": [
+    {
+      "id": 140249893,
+      "doc_id": "zvsz9k2qhrkgo0ki",
+      "updated": 1707039127000,
+      "properties": {
+        "title": "vuepress 绑定百度统计",
+        "urlname": "zvsz9k2qhrkgo0ki",
+        "date": "2023-09-18 18:27:33",
+        "updated": "2024-02-04 17:32:07",
+        "cover": "https://cdn.nlark.com/yuque/0/2023/png/1450835/1695032916230-80449adf-a8cf-4c8b-b5ab-adaae8cb29b9.png",
+        "description": "本篇教程适用于vuepress2版本注册百度统计https://tongji.baidu.com/注册成功后，打开网站列表https://tongji.baidu.com/main/setting/10000320023/home/site/index如下，新增网站配置新增站点获取代码 ，插入..."
+      },
+      "catalog": [
+        {
+          "title": "建站",
+          "doc_id": "zvsz9k2qhrkgo0ki"
+        },
+        {
+          "title": "vuepress",
+          "doc_id": "zvsz9k2qhrkgo0ki"
+        }
+      ],
+      "realName": "zvsz9k2qhrkgo0ki",
+      "relativePath": "\\zvsz9k2qhrkgo0ki.md",
+      "docPath": "./src/work"
+    },
+    {
+      "id": 142822211,
+      "doc_id": "inh0oo1krw99vda2",
+      "updated": 1706186670000,
+      "properties": {
+        "title": "小天留言板",
+        "urlname": "inh0oo1krw99vda2",
+        "date": "2023-10-19 14:32:51",
+        "updated": "2024-01-25 20:44:30",
+        "cover": "https://cdn.nlark.com/yuque/0/2023/jpeg/1450835/1697697648285-120aa24d-9eaa-4d39-add7-44bd80fbd3e3.jpeg",
+        "description": "背景新开公众号没有留言板功能，迁移主体开通留言板费用太高，目前市场的小程序留言板功能单一、操作复杂，对于小白不友好。小天留言板小程序，实现公众号留言，让博主上手简单、读者留言丝滑。小天留言板1.0开发 往事↓https://mp.weixin.qq.com/s/8ZdmgsGylsesKC5F..."
+      },
+      "catalog": [
+        {
+          "title": "项目",
+          "doc_id": "inh0oo1krw99vda2"
+        }
+      ],
+      "realName": "inh0oo1krw99vda2",
+      "relativePath": "\\inh0oo1krw99vda2.md",
+      "docPath": "./src/work"
+    },
+    {
+      "id": 157334586,
+      "doc_id": "mwrg33rlgqbcrgua",
+      "updated": 1706631787000,
+      "properties": {
+        "title": "小天刷题助手",
+        "urlname": "mwrg33rlgqbcrgua",
+        "date": "2024-01-27 16:23:15",
+        "updated": "2024-01-31 00:23:07",
+        "cover": "https://cdn.nlark.com/yuque/0/2024/jpeg/1450835/1706344103542-c9bc7a91-9c41-475f-a17d-236cc09f34f4.jpeg",
+        "description": "uniapp 云函数 将excel转换为json数据https://ext.dcloud.net.cn/plugin?id=6626读者反馈这种就是翻译题，懂单词意思就懂这是什么，我觉得可以分享一些比较容易混淆，或者经典的的一些问题或者面经"
+      },
+      "catalog": [
+        {
+          "title": "项目",
+          "doc_id": "mwrg33rlgqbcrgua"
+        }
+      ],
+      "realName": "mwrg33rlgqbcrgua",
+      "relativePath": "\\mwrg33rlgqbcrgua.md",
+      "docPath": "./src/work"
+    },
+    {
+      "id": 145567135,
+      "doc_id": "krx8g09a51nqiew6",
+      "updated": 1707039926000,
+      "properties": {
+        "title": "vuepress主题自定义布局",
+        "urlname": "krx8g09a51nqiew6",
+        "date": "2023-11-01 20:39:49",
+        "updated": "2024-02-04 17:45:26",
+        "cover": "https://cdn.nlark.com/yuque/0/2023/png/1450835/1698843337475-4523e9e7-a01d-4dc1-a6d1-ce21beaece36.png",
+        "description": "场景假如读者任意点开了王天的一篇文章，看完拖到文末、均显示王天的个人简介，如下图：如何实现呢？ 咱们可以通过配置替换主题组件+主题组件内置插槽的形式实现思路通过替换vuepress主题组件，来实现页面的自定义布局config.ts 配置 alias 替换主题组件主题组件内置插槽，提高开发效率步..."
+      },
+      "catalog": [
+        {
+          "title": "建站",
+          "doc_id": "krx8g09a51nqiew6"
+        },
+        {
+          "title": "vuepress",
+          "doc_id": "krx8g09a51nqiew6"
+        }
+      ],
+      "realName": "krx8g09a51nqiew6",
+      "relativePath": "\\krx8g09a51nqiew6.md",
+      "docPath": "./src/work"
+    },
+    {
+      "id": 142069324,
+      "doc_id": "txn2qu2w32rogh62",
+      "updated": 1698842044000,
+      "properties": {
+        "title": "vuepress+语雀+github搭建个人博客",
+        "urlname": "txn2qu2w32rogh62",
+        "date": "2023-10-11 21:27:34",
+        "updated": "2023-11-01 20:34:04",
+        "cover": "https://cdn.nlark.com/yuque/0/2023/jpeg/1450835/1696073050382-a07647ea-e2b6-4e21-8388-178bc55d31de.jpeg",
+        "description": "技术栈项编辑器_语雀_在线编辑文档Eleg 同步文档，以markdown格式批量导出语雀文档静态博客，展示内容_vuepress+theme Hope代码仓库、文档备份、开源提升影响力_github图床，存储图片：阿里云oss、腾讯云oss自动化部署，简化操作步骤，一行命令实现部署gitpag..."
+      },
+      "catalog": [
+        {
+          "title": "建站",
+          "doc_id": "txn2qu2w32rogh62"
+        },
+        {
+          "title": "vuepress",
+          "doc_id": "txn2qu2w32rogh62"
+        }
+      ],
+      "realName": "txn2qu2w32rogh62",
+      "relativePath": "\\txn2qu2w32rogh62.md",
+      "docPath": "./src/work"
+    },
+    {
+      "id": 138427864,
+      "doc_id": "gmbekqz6hte3q4if",
+      "updated": 1697077772000,
+      "properties": {
+        "title": "个人博客攻略",
+        "urlname": "gmbekqz6hte3q4if",
+        "date": "2023-09-05 20:24:11",
+        "updated": "2023-10-12 10:29:32",
+        "cover": "https://cdn.nlark.com/yuque/0/2023/png/1450835/1694785813326-79ba847a-8bf4-44bf-a504-e7a6fe04568c.png",
+        "description": "vuepress搭建教程1 篇文章带你搭建“个人博客”和“知识库”!（无保留版）语雀批量导出markdown语雀知识库一键导出 Markdown 工具google seo 优化在https://www.v2ex.com/上发帖介绍网站，最快1小时 谷歌就收录了图片改为SVG格式https://..."
+      },
+      "catalog": [
+        {
+          "title": "建站",
+          "doc_id": "gmbekqz6hte3q4if"
+        }
+      ],
+      "realName": "gmbekqz6hte3q4if",
+      "relativePath": "\\gmbekqz6hte3q4if.md",
+      "docPath": "./src/work"
+    },
+    {
+      "id": 140585931,
+      "doc_id": "lomagl3q00vg0nqf",
+      "updated": 1695349237000,
+      "properties": {
+        "title": "小天密码本",
+        "urlname": "lomagl3q00vg0nqf",
+        "date": "2023-09-21 18:39:58",
+        "updated": "2023-09-22 10:20:37",
+        "description": "需求账号太多，密码容易忘记，尤其是苹果账号申诉真是反人性！！！我经历过一次苹果重置密码，恶心坏了！ 重置需要等待14天，烦死啦，手机变板砖了！为了防止再次忘记密码，打算开发个小程序，存放所有密码。技术栈前端uniapp后端uniclound插件APP-引导页+官方示例 - DCloud 插件市..."
+      },
+      "catalog": [
+        {
+          "title": "项目",
+          "doc_id": "lomagl3q00vg0nqf"
+        }
+      ],
+      "realName": "lomagl3q00vg0nqf",
+      "relativePath": "\\lomagl3q00vg0nqf.md",
+      "docPath": "./src/work"
+    },
+    {
+      "id": 141260274,
+      "doc_id": "dv8eqocgui8rk4ry",
+      "updated": 1696076280000,
+      "properties": {
+        "title": "这13个主题，让你的wordpress秒变知识库",
+        "urlname": "dv8eqocgui8rk4ry",
+        "date": "2023-09-30 19:54:18",
+        "updated": "2023-09-30 20:18:00",
+        "description": "WordPress 的 WiKi 知识库主题 - 如何搭建WordPress网站 |Freedom Blog = 成为自由人 = 生活的理想，就是为了理想的生活页面排版布局、视觉效果这方面推荐使用 👇https://spider-themes.net/docy-best-documentat..."
+      },
+      "catalog": [
+        {
+          "title": "建站",
+          "doc_id": "dv8eqocgui8rk4ry"
+        }
+      ],
+      "realName": "dv8eqocgui8rk4ry",
+      "relativePath": "\\dv8eqocgui8rk4ry.md",
+      "docPath": "./src/work"
+    },
+    {
+      "id": 140491186,
+      "doc_id": "dmfthoyl1aq84f50",
+      "updated": 1695255049000,
+      "properties": {
+        "title": "苹果忘记锁屏密码怎么办？",
+        "urlname": "dmfthoyl1aq84f50",
+        "date": "2023-09-20 21:34:35",
+        "updated": "2023-09-21 08:10:49",
+        "cover": "https://cdn.nlark.com/yuque/0/2023/png/1450835/1695217226449-27878f82-3b0e-492c-bb27-80e4f0bb6995.png",
+        "description": "哎，平时刷脸解锁手机习惯了，屏幕解锁密码给忘了，尝试多次解锁后，手机不出意料的锁住了，从1分钟重试、到3小时重试，最后一次不敢尝试了，生怕手机变搬砖了。于是搜索iPhone忘记锁屏密码教程，踩坑了多种方案，亲测以下两种方式没毛病，注意！以下两种方式会重置手机, 如未备份数据，则默认恢复出厂设置..."
+      },
+      "catalog": [
+        {
+          "title": "科技数码",
+          "doc_id": "dmfthoyl1aq84f50"
+        }
+      ],
+      "realName": "dmfthoyl1aq84f50",
+      "relativePath": "\\dmfthoyl1aq84f50.md",
+      "docPath": "./src/work"
+    },
+    {
+      "id": 135587093,
+      "doc_id": "fy2vy4icsygbahon",
+      "updated": 1691416840000,
+      "properties": {
+        "title": "picgo+typora 超级好用的图床工具，再也不用担心图片失效啦",
+        "urlname": "fy2vy4icsygbahon",
+        "date": "2023-08-07 21:41:29",
+        "updated": "2023-08-07 22:00:40",
+        "cover": "https://cdn.nlark.com/yuque/0/2023/png/1450835/1691416081009-d149a4a6-181a-454f-b325-2bd5a4637f2e.png",
+        "description": "问题今天在折腾搭建vuepress博客，打算把语雀内容迁移到博客，发现语雀做了防盗链，导致图片无法显示。如何解决呢？🤦‍在网上找了一圈，试错了好几个小时，眼花腰疼终于找到了解决方案！🤩😀 使用picGo图床工具+typorapicGo 是一个集成各大云存储的工具，省去了各种配置，一键上传..."
+      },
+      "catalog": [
+        {
+          "title": "建站",
+          "doc_id": "fy2vy4icsygbahon"
+        },
+        {
+          "title": "vuepress",
+          "doc_id": "fy2vy4icsygbahon"
+        }
+      ],
+      "realName": "fy2vy4icsygbahon",
+      "relativePath": "\\fy2vy4icsygbahon.md",
+      "docPath": "./src/work"
+    },
+    {
+      "id": 140113370,
+      "doc_id": "hgdvvg24f38gsvcp",
+      "updated": 1694950765000,
+      "properties": {
+        "title": "webhooks 自动部署git项目",
+        "urlname": "hgdvvg24f38gsvcp",
+        "date": "2023-09-17 13:19:07",
+        "updated": "2023-09-17 19:39:25",
+        "description": "❌  经过不断尝试，果断放弃webhoooks！不是踩坑太多，而是最终配好后执行太耗时。💡 自动部署，本质是在服务器执行 git clone ，因受服务器资资源限制、此过程会非常耗时，我20多兆的仓库，整个过程需要半个小时。✔️过程太慢还浪费服务器宽度，还不如本地写个脚本上传算了🔥对web..."
+      },
+      "catalog": [
+        {
+          "title": "建站",
+          "doc_id": "hgdvvg24f38gsvcp"
+        },
+        {
+          "title": "vuepress",
+          "doc_id": "hgdvvg24f38gsvcp"
+        }
+      ],
+      "realName": "hgdvvg24f38gsvcp",
+      "relativePath": "\\hgdvvg24f38gsvcp.md",
+      "docPath": "./src/work"
+    }
+  ],
+  "catalog": [
+  
+    {
+      "type": "TITLE",
+      "title": "科技数码",
+      "uuid": "PUQZiYfEh8WLE0S5",
+      "url": "",
+      "prev_uuid": "dmQSRn6AXUBSg96x",
+      "sibling_uuid": "dM-RDLFXxlX3QjP_",
+      "child_uuid": "eX4exmhO2D8UflWY",
+      "parent_uuid": "",
+      "doc_id": "",
+      "level": 0,
+      "id": "",
+      "open_window": 1,
+      "visible": 1
+    },
+    {
+      "type": "DOC",
+      "title": "苹果忘记锁屏密码怎么办？",
+      "uuid": "eX4exmhO2D8UflWY",
+      "url": "dmfthoyl1aq84f50",
+      "prev_uuid": "PUQZiYfEh8WLE0S5",
+      "sibling_uuid": "",
+      "child_uuid": "",
+      "parent_uuid": "PUQZiYfEh8WLE0S5",
+      "doc_id": 140491186,
+      "level": 1,
+      "id": 140491186,
+      "open_window": 1,
+      "visible": 1
+    },
+    {
+      "type": "TITLE",
+      "title": "建站",
+      "uuid": "dM-RDLFXxlX3QjP_",
+      "url": "",
+      "prev_uuid": "PUQZiYfEh8WLE0S5",
+      "sibling_uuid": "",
+      "child_uuid": "sn8E2_a_GziDp-Fm",
+      "parent_uuid": "",
+      "doc_id": "",
+      "level": 0,
+      "id": "",
+      "open_window": 1,
+      "visible": 1
+    },
+    {
+      "type": "DOC",
+      "title": "这13个主题，让你的wordpress秒变知识库",
+      "uuid": "sn8E2_a_GziDp-Fm",
+      "url": "dv8eqocgui8rk4ry",
+      "prev_uuid": "dM-RDLFXxlX3QjP_",
+      "sibling_uuid": "XocdFCHEyCyCEqAm",
+      "child_uuid": "",
+      "parent_uuid": "dM-RDLFXxlX3QjP_",
+      "doc_id": 141260274,
+      "level": 1,
+      "id": 141260274,
+      "open_window": 1,
+      "visible": 1
+    },
+    {
+      "type": "DOC",
+      "title": "个人博客攻略",
+      "uuid": "XocdFCHEyCyCEqAm",
+      "url": "gmbekqz6hte3q4if",
+      "prev_uuid": "sn8E2_a_GziDp-Fm",
+      "sibling_uuid": "YuUbUZEcb0H5i8by",
+      "child_uuid": "",
+      "parent_uuid": "dM-RDLFXxlX3QjP_",
+      "doc_id": 138427864,
+      "level": 1,
+      "id": 138427864,
+      "open_window": 1,
+      "visible": 1
+    },
+    {
+      "type": "TITLE",
+      "title": "vuepress",
+      "uuid": "YuUbUZEcb0H5i8by",
+      "url": "",
+      "prev_uuid": "XocdFCHEyCyCEqAm",
+      "sibling_uuid": "",
+      "child_uuid": "sjQp_ifu1us6UgxR",
+      "parent_uuid": "dM-RDLFXxlX3QjP_",
+      "doc_id": "",
+      "level": 1,
+      "id": "",
+      "open_window": 1,
+      "visible": 1
+    },
+    {
+      "type": "DOC",
+      "title": "webhooks 自动部署git项目",
+      "uuid": "sjQp_ifu1us6UgxR",
+      "url": "hgdvvg24f38gsvcp",
+      "prev_uuid": "YuUbUZEcb0H5i8by",
+      "sibling_uuid": "Oe3mhxMYTPnULY4K",
+      "child_uuid": "",
+      "parent_uuid": "YuUbUZEcb0H5i8by",
+      "doc_id": 140113370,
+      "level": 2,
+      "id": 140113370,
+      "open_window": 1,
+      "visible": 1
+    },
+    {
+      "type": "DOC",
+      "title": "picgo+typora 超级好用的图床工具，再也不用担心图片失效啦",
+      "uuid": "Oe3mhxMYTPnULY4K",
+      "url": "fy2vy4icsygbahon",
+      "prev_uuid": "sjQp_ifu1us6UgxR",
+      "sibling_uuid": "e1_kPpijDayK5qYi",
+      "child_uuid": "",
+      "parent_uuid": "YuUbUZEcb0H5i8by",
+      "doc_id": 135587093,
+      "level": 2,
+      "id": 135587093,
+      "open_window": 0,
+      "visible": 1
+    },
+    {
+      "type": "DOC",
+      "title": "vuepress 绑定百度统计",
+      "uuid": "e1_kPpijDayK5qYi",
+      "url": "zvsz9k2qhrkgo0ki",
+      "prev_uuid": "Oe3mhxMYTPnULY4K",
+      "sibling_uuid": "NfRi8Eayo2sN1vkp",
+      "child_uuid": "",
+      "parent_uuid": "YuUbUZEcb0H5i8by",
+      "doc_id": 140249893,
+      "level": 2,
+      "id": 140249893,
+      "open_window": 1,
+      "visible": 1
+    },
+    {
+      "type": "DOC",
+      "title": "vuepress+语雀+github搭建个人博客",
+      "uuid": "NfRi8Eayo2sN1vkp",
+      "url": "txn2qu2w32rogh62",
+      "prev_uuid": "e1_kPpijDayK5qYi",
+      "sibling_uuid": "A_s1MyMzOUm5sVLQ",
+      "child_uuid": "",
+      "parent_uuid": "YuUbUZEcb0H5i8by",
+      "doc_id": 142069324,
+      "level": 2,
+      "id": 142069324,
+      "open_window": 1,
+      "visible": 1
+    },
+    {
+      "type": "DOC",
+      "title": "vuepress主题自定义布局",
+      "uuid": "A_s1MyMzOUm5sVLQ",
+      "url": "krx8g09a51nqiew6",
+      "prev_uuid": "NfRi8Eayo2sN1vkp",
+      "sibling_uuid": "",
+      "child_uuid": "",
+      "parent_uuid": "YuUbUZEcb0H5i8by",
+      "doc_id": 145567135,
+      "level": 2,
+      "id": 145567135,
+      "open_window": 1,
+      "visible": 1
+    }
+  ]
+}

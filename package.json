@@ -13,7 +13,8 @@
     "build:a": "vuepress build src",
     "build:b": "npm run upbt",
     "build": "npm-run-all build:a build:b",
-    "sync": "elog sync -e .elog.env"
+    "sync": "elog sync -e .elog.env",
+    "sync:work": "elog sync -e .elog_work.env -a elog.cache_work.json -c elog.config_work.js"
   },
   "devDependencies": {
     "@vuepress/client": "2.0.0-beta.67",
@@ -25,7 +26,7 @@
     "vuepress-theme-hope": "2.0.0-beta.237"
   },
   "dependencies": {
-    "@elog/cli": "0.7.3-beta.1",
+    "@elog/cli": "^0.13.2",
     "@vuepress/utils": "2.0.0-beta.67",
     "pnpm": "^8.7.6",
     "vuepress-plugin-search-pro": "2.0.0-beta.237"

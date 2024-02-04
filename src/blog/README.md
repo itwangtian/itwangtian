@@ -8,7 +8,8 @@ heroText: 王天的博客
 # bgImage: https://theme-hope-assets.vuejs.press/bg/6-light.svg
 # bgImageDark: https://theme-hope-assets.vuejs.press/bg/6-dark.svg
 heroFullScreen: true
-tagline: 包括不限于 vue、react、ts、 uniapp  
+tagline: 98年👦🏻 |   零基础转行前端 | 工作7年 |  持续分享前端知识，助力0~2年的前端新人
+    
 actions:
   - text: 上车学习 💡
     link: ./docs/
@@ -29,7 +30,7 @@ projects:
     link: https://链接地址
 
   - icon: book
-    name: 开源项目111
+    name: 开源项目
     desc: 一些有用的工具库，希望对你有帮助
     link: https://你的书籍链接
 

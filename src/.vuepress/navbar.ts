@@ -48,11 +48,17 @@ link:'/docs/el2150t8n7tdkgcp'
   //   //   "strawberry",
   //   // ],
   // },
+  {
+    text: "建站攻略",
+    icon: "computer",
+    link: "/work/",
+  },
     {
     text: "程序人生",
     icon: "book",
     link: "/joachern/",
   },
+
   // {
   //   text: "V2 文档",
   //   icon: "book",
