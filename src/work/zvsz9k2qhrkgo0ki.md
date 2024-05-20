@@ -3,7 +3,6 @@ title: vuepress 绑定百度统计
 urlname: zvsz9k2qhrkgo0ki
 date: '2023-09-18 18:27:33'
 updated: '2024-02-04 17:32:07'
-cover: 'https://cdn.nlark.com/yuque/0/2023/png/1450835/1695032916230-80449adf-a8cf-4c8b-b5ab-adaae8cb29b9.png'
 description: '本篇教程适用于vuepress2版本注册百度统计https://tongji.baidu.com/注册成功后，打开网站列表https://tongji.baidu.com/main/setting/10000320023/home/site/index如下，新增网站配置新增站点获取代码 ，插入...'
 ---
 > 本篇教程适用于vuepress2版本

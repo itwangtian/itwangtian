@@ -3,7 +3,6 @@ title: vuepress主题自定义布局
 urlname: krx8g09a51nqiew6
 date: '2023-11-01 20:39:49'
 updated: '2024-02-04 17:45:26'
-cover: 'https://cdn.nlark.com/yuque/0/2023/png/1450835/1698843337475-4523e9e7-a01d-4dc1-a6d1-ce21beaece36.png'
 description: 场景假如读者任意点开了王天的一篇文章，看完拖到文末、均显示王天的个人简介，如下图：如何实现呢？ 咱们可以通过配置替换主题组件+主题组件内置插槽的形式实现思路通过替换vuepress主题组件，来实现页面的自定义布局config.ts 配置 alias 替换主题组件主题组件内置插槽，提高开发效率步...
 ---
 ## 场景

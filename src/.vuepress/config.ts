@@ -1,4 +1,6 @@
 import { defineUserConfig } from "vuepress";
+import { viteBundler } from '@vuepress/bundler-vite'
+
 import theme from "./theme.js"; 
 import { searchProPlugin } from "vuepress-plugin-search-pro";
 // 百度站点推送
@@ -8,6 +10,10 @@ const __dirname = getDirname(import.meta.url);
 
 // 这里使用的是 vuepress主题 配置项
 export default defineUserConfig({
+  bundler: viteBundler({
+    viteOptions: {},
+    vuePluginOptions: {},
+  }),
   theme,
   alias: {
     // 你可以在这里将别名定向到自己的组件
@@ -34,7 +40,7 @@ export default defineUserConfig({
   ],
   base: "/",
   lang: "zh-CN",
-  title: "web进阶指南",
+  title: "王天的web进阶指南",
   description: "前端编程技术分享！ itwangtian",
 
  

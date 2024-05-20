@@ -3,7 +3,6 @@ title: picgo+typora 超级好用的图床工具，再也不用担心图片失效
 urlname: fy2vy4icsygbahon
 date: '2023-08-07 21:41:29'
 updated: '2023-08-07 22:00:40'
-cover: 'https://cdn.nlark.com/yuque/0/2023/png/1450835/1691416081009-d149a4a6-181a-454f-b325-2bd5a4637f2e.png'
 description: "问题今天在折腾搭建vuepress博客，打算把语雀内容迁移到博客，发现语雀做了防盗链，导致图片无法显示。如何解决呢？\U0001F926‍在网上找了一圈，试错了好几个小时，眼花腰疼终于找到了解决方案！\U0001F929\U0001F600 使用picGo图床工具+typorapicGo 是一个集成各大云存储的工具，省去了各种配置，一键上传..."
 ---
 # 问题

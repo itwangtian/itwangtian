@@ -44,7 +44,7 @@ export default sidebar({
       text: "TS+React开发",
       icon: "laptop-code",
       prefix: "docs/", 
-      collapsible: true,
+      collapsible: false,
       // children: "structure"
       children: genYuqueRoute(catalogReact),
 
@@ -52,18 +52,18 @@ export default sidebar({
     {
       text: "建站攻略",
       icon: "computer",
-      collapsible: true,
+      collapsible: false,
       prefix: "work/",
         // children: "structure"
       children: genYuqueRoute(catalogWork),
     },
-    {
-      text: "程序人生",
-      icon: "book",
-      collapsible: true,
-      prefix: "joachern/",
-      children: "structure",
-    }
+    // {
+    //   text: "程序人生",
+    //   icon: "book",
+    //   collapsible: true,
+    //   prefix: "life/",
+    //   children: "structure",
+    // }
    
   ],
 });
